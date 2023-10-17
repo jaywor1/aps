@@ -24,5 +24,6 @@ Má následující unární operace:
 |Název| Exprese 1 | Exprese 2 |
 |:-----:|:-------:|:-:|
 | o idempotenci prvků|$x+x=x$|$x*x=x$|
+| absorbce | $x+x\*y=x$ | $x\*(x+y)=x$ |
 | dvojí negace | $\neg\neg{x} = x$ |
 
