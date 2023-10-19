@@ -2,8 +2,17 @@
 
 Obsah:
 - [Hradla s jedním vstupem](#hradla-s-jedním-vstupem)
+	- [Buffer](#buffer-repeater)
+	- [NOT](#not)
 - [Základní hradla se dvěma vstupy](#základní-hradla-se-dvěma-vstupy)
+	- [AND](#and)
+	- [OR](#or)
+	- [XOR](#xor)
 - [Opaky základních hradel se dvěma vstupy](#opaky-základních-hradel-se-dvěma-vstupy)
+	- [NAND](#nand)
+	- [NOR](#nor)
+	- [XNOR](#xnor)
+- [Cheat sheet](#cheat-sheet)
 
 ## Hradla s jedním vstupem
 
@@ -249,7 +258,7 @@ bool Q = !(A ^ B);
 |1|0|0|
 |1|1|1|
 
-### Cheat sheat
+## Cheat sheet
 
 Cheat sheat pro logické brány
 
