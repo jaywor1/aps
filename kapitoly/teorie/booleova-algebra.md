@@ -17,8 +17,8 @@ Má následující unární operace:
 ### De Morganovy zákony
 | Zákon |
 |:-----:|
-|$\neg{x} + \neg{y} = \neg({x*y})$
-|$\neg{x} \* \neg{y} = \neg({x+y})$
+|$\neg{x} + \neg{y} = \neg({x*y})$|
+|$\neg{x} \* \neg{y} = \neg({x+y})$|
 
 ### Užitečné zákony
 |Název| Exprese 1 | Exprese 2 |
@@ -27,3 +27,7 @@ Má následující unární operace:
 | absorbce | $x+x\*y=x$ | $x\*(x+y)=x$ |
 | dvojí negace | $\neg\neg{x} = x$ |
 
+
+[Další kapitola - Hradla](hradla.md)
+[Menu - Teorie](../teorie.md)
+[Hlavní menu](/README.md)

@@ -271,3 +271,7 @@ Cheat sheat pro logické brány
 |1|0|0|1|1|1|1|0|
 |1|1|1|1|0|0|0|1|
 
+
+[Předchozí kapitola - Booleova-algebra](booleova-algebra.md)
+[Menu - Teorie](../teorie.md)
+[Hlavní menu](/README.md)
