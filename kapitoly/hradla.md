@@ -1,5 +1,10 @@
 # Hradla
 
+Obsah:
+- [Hradla s jedním vstupem](#hradla-s-jedním-vstupem)
+- [Základní hradla se dvěma vstupy](#základní-hradla-se-dvěma-vstupy)
+- [Opaky základních hradel se dvěma vstupy](#opaky-základních-hradel-se-dvěma-vstupy)
+
 ## Hradla s jedním vstupem
 
 Hradla, které mají jeden vstup jsou následující
@@ -243,7 +248,6 @@ bool Q = !(A ^ B);
 |0|1|0|
 |1|0|0|
 |1|1|1|
-
 
 ### Cheat sheat
 
