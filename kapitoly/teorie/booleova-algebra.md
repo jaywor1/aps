@@ -29,5 +29,7 @@ Má následující unární operace:
 
 
 [Další kapitola - Hradla](hradla.md)
+
 [Menu - Teorie](../teorie.md)
+
 [Hlavní menu](/README.md)

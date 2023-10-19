@@ -273,5 +273,7 @@ Cheat sheat pro logické brány
 
 
 [Předchozí kapitola - Booleova-algebra](booleova-algebra.md)
+
 [Menu - Teorie](../teorie.md)
+
 [Hlavní menu](/README.md)
