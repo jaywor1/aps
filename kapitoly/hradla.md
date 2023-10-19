@@ -1,66 +1,89 @@
 # Hradla
 
-## Buffer
+## Hradla s jedním vstupem
 
-### Definice
+Hradla, které mají jeden vstup jsou následující
 
-#### Matematika:
+- Buffer (repeater)
+- NOT
+### Buffer (repeater)
 
-$$ Q = A $$
+**Buffer** se převážně využívá na zopakování a posílení vstupu. Taky tím "ukazujete", jakým směrem teče proud.
 
-#### Zápis v C:
+#### Definice
+
+Matematická definice
+
+$Q = A$
+
+Zápis v C
 
 ```
 bool A;
 bool Q = A;
 ```
 
-### Pravdivostní tabulka
+#### Pravdivostní tabulka
 
 |A|Q|
 |:-:|:-:|
 |0|0|
 |1|1|
 
-## NOT
+### NOT
 
-### Definice
+Hradlo **NOT** použijete, když potřebujete změnit hodnotu na její opak.
 
-#### Matematika:
+Neboli 0 --> 1 nebo 1 --> 0
+#### Definice
 
-$$ Q = \neg A $$
+Matematická definice
 
-#### Zápis v C:
+$Q = \neg A$
+
+Zápis v C
 
 ```
 bool A;
 bool Q = !A;
 ```
 
-### Pravdivostní tabulka
+#### Pravdivostní tabulka
 
 |A|Q|
 |:-:|:-:|
 |0|1|
 |1|0|
 
-## AND
 
-### Definice
+## Základní hradla se dvěma vstupy
 
-#### Matematika:
+Základní hradla, které mají dva vstupy jsou následující
 
-$$ Q = A * B $$
+- AND
+- OR
+- XOR
+### AND
 
-#### Zápis v C:
+Hradlo **AND** neboli logické **"a"** , se využívá když chcete naplnit dvě podmíky.
 
-```
+*Pokud platí A* **a** *B, tak pošli na výstup hodnotu 1*
+
+#### Definice
+
+V Boolenově algebře se hradlo **AND** rovná násobení
+
+$Q = A * B$
+
+Zápis v C:
+
+```c
 bool A = <bool_val>;
 bool B = <bool_val>;
 bool Q = A && B;
 ```
 
-### Pravdivostní tabulka
+#### Pravdivostní tabulka
 
 |A|B|Q|
 |:-:|:-:|:-:|
@@ -69,13 +92,26 @@ bool Q = A && B;
 |1|0|0|
 |1|1|1|
 
-## OR
+### OR
+Hradlo **OR** neboli logické **"nebo"** , se využívá když chcete naplnit aspoň jednu podmíku.
 
-### Definice
+*Pokud platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
 
-$$ Q = A + B $$
+#### Definice
 
-### Pravdivostní tabulka
+V Boolenově algebře se hradlo **OR** rovná součtu
+
+$Q = A + B$
+
+Zápis v C:
+
+```c
+bool A = <bool_val>;
+bool B = <bool_val>;
+bool Q = A || B;
+```
+
+#### Pravdivostní tabulka
 
 |A|B|Q|
 |:-:|:-:|:-:|
@@ -84,15 +120,155 @@ $$ Q = A + B $$
 |1|0|1|
 |1|1|1|
 
-## NAND
+### XOR
+Hradlo **XOR** neboli exkluzivní OR , se využívá když chcete naplnit pouze jednu podmíku. Jednoduše řečeno, když se sobě nerovnají.
 
-### Definice
+*Pokud platí ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
+
+#### Definice
+
+V Boolenově algebře se pro hradlo **XOR** používá symbol $\bigoplus$
+
+$Q = A \bigoplus B$
+
+Zápis v C
+
+```c
+bool A = <bool_val>;
+bool B = <bool_val>;
+bool Q = A ^ B;
+```
+
+#### Pravdivostní tabulka
+
+|A|B|Q|
+|:-:|:-:|:-:|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+
+
+
+## Opaky základních hradel se dvěma vstupy
+
+Opaky základních hradel, existují právě 3
+
+- NAND (opak AND)
+- NOR (opak OR)
+- XNOR (opak XOR)
+
+### NAND
+Hradlo **NAND** má opačný výstup hradla **AND**
+
+*Pokud **ne**platí A* **a** *B, tak pošli na výstup hodnotu 1*
+
+#### Definice
+
+V Boolenově algebře se hradlo **NAND** rovná negaci násobení
+
+$Q = \neg(A * B)$
+
+Zápis v C:
+
+```c
+bool A = <bool_val>;
+bool B = <bool_val>;
+bool Q = !(A && B);
+```
+
+#### Pravdivostní tabulka
+
+|A|B|Q|
+|:-:|:-:|:-:|
+|0|0|1|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+### NOR
+Hradlo **NOR** má opačný vstup hradla **OR**
+
+*Pokud **ne**platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
+
+#### Definice
+
+V Boolenově algebře se hradlo **NOR** rovná negaci součtu
+
+$Q = \neg(A + B)$
+
+Zápis v C:
+
+```c
+bool A = <bool_val>;
+bool B = <bool_val>;
+bool Q = !(A || B);
+```
+
+#### Pravdivostní tabulka
+
+|A|B|Q|
+|:-:|:-:|:-:|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|0|
+
+
+### XNOR
+Hradlo **XNOR** je opak hradla **XOR**, jednoduše řečeno se jedná o ekvivalenci
+
+*Pokud se A **rovná** B*
+
+#### Definice
+
+V Boolenově algebře se hradlo **XNOR** rovná negaci operaci $\bigoplus$
+
+$Q = \neg(A \bigoplus B)$
+
+Zápis v C:
+
+```c
+bool A = <bool_val>;
+bool B = <bool_val>;
+bool Q = !(A ^ B);
+```
+
+#### Pravdivostní tabulka
+
+|A|B|Q|
+|:-:|:-:|:-:|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+
+### Cheat sheat
+
+Cheat sheat pro logické brány
+
+*Vstup A a Vstup B dává výstup \<operace\>*
+
+|A|B|AND|OR|XOR|NAND|NOR|XNOR|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|0|0|0|0|0|1|1|1|
+|0|1|0|1|1|1|1|0|
+|1|0|0|1|1|1|1|0|
+|1|1|1|1|0|0|0|1|
+
+
+## Deprecated
+### NAND
+
+#### Definice
 
 #### Matematika:
 
 $$ Q = A * B $$
 
-### Pravdivostní tabulka
+#### Pravdivostní tabulka
 
 |A|B|Q|
 |:-:|:-:|:-:|
@@ -101,7 +277,7 @@ $$ Q = A * B $$
 |1|0|1|
 |1|1|0|
 
-## NOR
+### NOR
 
 ### Definice
 
@@ -116,7 +292,7 @@ $$ Q = A * B $$
 |1|0|0|
 |1|1|0|
 
-## XOR
+### XOR
 
 ### Definice
 
@@ -131,7 +307,7 @@ $$ Q = A * B $$
 |1|0|1|
 |1|1|0|
 
-## XNOR
+### XNOR
 
 ### Definice
 
