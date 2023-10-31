@@ -1,4 +1,4 @@
-# Hradla
+# Hradla - Teorie
 
 Obsah:
 - [Hradla s jedním vstupem](#hradla-s-jedním-vstupem)
@@ -260,7 +260,7 @@ bool Q = !(A ^ B);
 
 ## Cheat sheet
 
-Cheat sheat pro logické brány
+### Cheat sheat pro logické brány
 
 *Vstup A a Vstup B dává výstup \<operace\>*
 
@@ -271,9 +271,15 @@ Cheat sheat pro logické brány
 |1|0|0|1|1|1|1|0|
 |1|1|1|1|0|0|0|1|
 
+### Zobrazení logických bran v logisimu
+
+
+![[hradla.png]]
+
+
 
 [Předchozí kapitola - Booleova-algebra](booleova-algebra.md)
 
-[Menu - Teorie](../teorie.md)
+[Menu - Teorie](teorie.md)
 
 [Hlavní menu](/README.md)
