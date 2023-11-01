@@ -25,11 +25,11 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 ![](/obrazky/karnachova-mapa.png)
 
 2.  Doplníme do tabulky
-![[karnachova-mapa-2.png]]
+![](/obrazky/karnaughova-mapa-2.png)
 
 3. Zakroužkujeme největší obdelníky a vyjádříme je
 
-![[karnachova-mapa-3.png]]
+![](/obrazky/karnaughova-mapa-3.png)
 
 Vidíme, že je blok nezávislý na tom jestli je $A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C$
 
@@ -44,7 +44,7 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
 
 ![](/obrazky/Torus_from_rectangle.gif)
 
-![](/obrazky/karnachova-mapa-4.png)
+![](/obrazky/karnaughova-mapa-4.png)
 Vidíme, že je výraz $Q_2$ nezávislý na proměnné $B$ (může být $0$ nebo $1$)
 
 - $A$ musí být $0$
@@ -59,3 +59,15 @@ Výsledné výrazy sečteme
 $$Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})$$
 
 5. Výsledný výraz si můžeme postavit v logisimu viz. obrázek
+
+![](/obrazky/karnaughova-mapa-1-logisim.png)
+
+6. Zkontrolujeme pravdivnostní tabulku.
+	1. Klikneme pravým tlačítkem na circuit v nabídce (základní je main)
+	2. Klikneme na tlačítko **Build Circuit**
+	3. Potvrdíme tlačítkem **OK**, popřípadě **Yes**
+	4. Vybereme v nabídce **Table**
+	5. Dostaneme tabulku viz. obrázek
+
+
+![](/obrazky/karnaughova-mapa-1-table.png)
