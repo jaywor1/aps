@@ -53,7 +53,7 @@ Neboli 0 --> 1 nebo 1 --> 0
 
 Matematická definice
 
-$Q = \neg A$
+$Q = \overline{A}$
 
 Zápis v C
 
@@ -182,7 +182,7 @@ Hradlo **NAND** má opačný výstup hradla **AND**
 
 V Boolenově algebře se hradlo **NAND** rovná negaci násobení
 
-$Q = \neg(A * B)$
+$Q = \overline{(A * B)}$
 
 Zápis v C:
 
@@ -210,7 +210,7 @@ Hradlo **NOR** má opačný vstup hradla **OR**
 
 V Boolenově algebře se hradlo **NOR** rovná negaci součtu
 
-$Q = \neg(A + B)$
+$Q = \overline{(A + B)}$
 
 Zápis v C:
 
@@ -239,7 +239,7 @@ Hradlo **XNOR** je opak hradla **XOR**, jednoduše řečeno se jedná o ekvivale
 
 V Boolenově algebře se hradlo **XNOR** rovná negaci operaci $\bigoplus$
 
-$Q = \neg(A \bigoplus B)$
+$Q = \overline{(A \bigoplus B)}$
 
 Zápis v C:
 
