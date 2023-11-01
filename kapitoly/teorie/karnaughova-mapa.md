@@ -22,4 +22,4 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 
 
 
-![[karnachova-mapa.png]]
+![](/obrazky/karnachova-mapa.png)
