@@ -18,7 +18,7 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 | 1 | 1 | 1 | 0 |
 
 
-1. Vytvoříme si Karnachovu mapu
+1. Vytvoříme si Karnaughovu mapu
 
 
 
