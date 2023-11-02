@@ -25,9 +25,10 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 ![](/obrazky/karnachova-mapa.png)
 
 2.  Doplníme do tabulky
+
 ![](/obrazky/karnaughova-mapa-2.png)
 
-3. Zakroužkujeme největší obdelníky a vyjádříme je
+4. Zakroužkujeme největší obdelníky a vyjádříme je
 
 ![](/obrazky/karnaughova-mapa-3.png)
 
