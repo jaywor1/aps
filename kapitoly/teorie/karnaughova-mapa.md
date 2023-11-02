@@ -45,6 +45,8 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
 
 ![](/obrazky/Torus_from_rectangle.gif)
 
+
+![[karnaughova-mapa-4.png]]
 ![](/obrazky/karnaughova-mapa-4.png)
 Vidíme, že je výraz $Q_2$ nezávislý na proměnné $B$ (může být $0$ nebo $1$)
 
