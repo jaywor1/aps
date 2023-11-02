@@ -1,6 +1,6 @@
 # APS - Skripta
 
-### UNDER CONSTRUCTION !!!
+### WIP (Work-in-Progress)
 
 ## Kapitoly
 - [Teorie](/kapitoly/teorie.md)
