@@ -1,4 +1,4 @@
-2# Karnaughova mapa
+# Karnaughova mapa
 
 Karnaughova mapa je prostředek pro minimalizaci logických obvodů.
 
