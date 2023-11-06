@@ -274,7 +274,7 @@ bool Q = !(A ^ B);
 ### Zobrazení logických bran v logisimu
 
 
-![[hradla.png]]
+![](/obrazky/hradla.png)
 
 
 
