@@ -17,30 +17,30 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | Název | Znak | Definice |
 | :-:|:-:|:-:|
 | Negace | $\neg$ nebo $\overline{x}$ | Neguje vstup, tedy z 1 dostaneme 0 a obráceně |
-| Disjunkce (spojení) | $\cup$ nebo $\lor$  | Sjednocuje 2 množiny, logické **nebo** |
-| Konjunkce (průsek) | $\cap$ nebo $\land$ | Průnik 2 množin, logické **a** |
+| Disjunkce (spojení) | $\lor$  | Logické **nebo** |
+| Konjunkce (průsek) | $\land$ | Logické **a** |
 
 
 ### Axiomy
 | Název | Součet | Součin |
 |:-----:|:-------:|:-:|
-| komutativní | $x+y=y+x$ | $x\*y=y\*x$ |
-| distrubutivní | $(x+y)\*z=x\*z+y\*z$ | $(x\*y)+z=(x+z)\*(y+z)$ |
-| o neutralitě 0 a 1 | $x+0=x$ | $x*1=x$ |
-| vyloučení třetího | $x+\overline{x} = 1$ | $x*\overline{x} = 0$ |
+| komutativní | $x+y=y+x$ | $x{\cdot}y=y{\cdot}x$ |
+| distrubutivní | $(x+y){\cdot}z=x{\cdot}z+y{\cdot}z$ | $(x{\cdot}y)+z=(x+z){\cdot}(y+z)$ |
+| o neutralitě 0 a 1 | $x+0=x$ | $x{\cdot}1=x$ |
+| vyloučení třetího | $x+\overline{x} = 1$ | $x{\cdot}\overline{x} = 0$ |
 
 ### De Morganovy zákony
 | Zákon |
 |:-----:|
-|$\overline{x} + \overline{y} = \overline{(x*y)}$|
-|$\overline{x} \* \overline{y} = \overline{(x+y)}$|
+|$\overline{x} + \overline{y} = \overline{(x{\cdot}y)}$|
+|$\overline{x} {\cdot} \overline{y} = \overline{(x+y)}$|
 
 ### Užitečné zákony
 |Název| Součet | Součin |
 |:-----:|:-------:|:-:|
-| asociativní | $x+(y+z)=(x+y)+z$ | $x*(y*z)=(x*y)*z$ |
-| o idempotenci prvků (absorbce) |$x+x=x$|$x*x=x$|
-| absorbce | $x+x\*y=x$ | $x\*(x+y)=x$ |
+| asociativní | $x+(y+z)=(x+y)+z$ | $x{\cdot}(y{\cdot}z)=(x{\cdot}y){\cdot}z$ |
+| o idempotenci prvků (absorbce) |$x+x=x$|$x{\cdot}x=x$|
+| absorbce | $x+x{\cdot}y=x$ | $x{\cdot}(x+y)=x$ |
 | dvojí negace | $\overline{\overline{{x}}} = x$ | $\overline{\overline{{x}}} = x$ |
 
 
