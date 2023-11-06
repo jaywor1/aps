@@ -20,17 +20,21 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 
 1. Vytvoříme si Karnachovu mapu (tam kde jsou písmena, tak je hodnota nastavená na 1)
 
-
-
-![](/obrazky/karnachova-mapa.png)
+<p align="center">
+  <img src="/obrazky/karnachova-mapa.png" />
+</p>
 
 2.  Doplníme do tabulky
 
-![](/obrazky/karnaughova-mapa-2.png)
+<p align="center">
+  <img src="/obrazky/karnaughova-mapa-2.png" />
+</p>
 
 4. Zakroužkujeme největší obdelníky a vyjádříme je
 
-![](/obrazky/karnaughova-mapa-3.png)
+<p align="center">
+  <img src="/obrazky/karnaughova-mapa-3.png" />
+</p>
 
 Vidíme, že je blok nezávislý na tom jestli je $A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C$
 
@@ -43,12 +47,15 @@ Součin jsme použili, protože je $*$ totožné logickému *a zároveň platí*
 
 Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se nacházejí "vedle sebe" (na začátku a na konci)
 
-![](/obrazky/Torus_from_rectangle.gif)
+
+<p align="center">
+  <img src="/obrazky/Torus_from_rectangle.gif" />
+</p>
 
 
-![](karnaughova-mapa-4.png)
-
-![](/obrazky/karnaughova-mapa-4.png)
+<p align="center">
+  <img src="/obrazky/karnaughova-mapa-4.png" />
+</p>
 
 Vidíme, že je výraz $Q_2$ nezávislý na proměnné $B$ (může být $0$ nebo $1$)
 
@@ -65,7 +72,9 @@ $$Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})
 
 5. Výsledný výraz si můžeme postavit v logisimu viz. obrázek
 
-![](/obrazky/karnaughova-mapa-1-logisim.png)
+<p align="center">
+  <img src="/obrazky/karnaughova-mapa-1-logisim.png" />
+</p>
 
 6. Zkontrolujeme pravdivnostní tabulku.
 	1. Klikneme pravým tlačítkem na circuit v nabídce (základní je main)
