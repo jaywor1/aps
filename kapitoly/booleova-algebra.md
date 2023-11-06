@@ -44,8 +44,6 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | dvojí negace | $\overline{\overline{{x}}} = x$ | $\overline{\overline{{x}}} = x$ |
 
 
-[Další kapitola - Hradla](hradla.md)
-
-[Menu - Teorie](../teorie.md)
+[Další kapitola - Hradla](/kapitoly/hradla.md)
 
 [Hlavní menu](/README.md)

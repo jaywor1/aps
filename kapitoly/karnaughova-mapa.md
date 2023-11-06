@@ -85,3 +85,6 @@ $$Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})
 
 
 ![](/obrazky/karnaughova-mapa-1-table.png)
+
+
+[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)

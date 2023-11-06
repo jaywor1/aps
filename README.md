@@ -3,8 +3,8 @@
 ### WIP (Work-in-Progress)
 
 ## Kapitoly
-- [Teorie](/kapitoly/teorie.md)
-	- [Booleova algebra](/kapitoly/teorie/booleova-algebra.md)
-	- [Hradla](/kapitoly/teorie/hradla/hradla-teorie.md)
-	- [Karnaughova mapa](/kapitoly/teorie/karnaughova-mapa.md)
+1. Teorie
+[Booleova algebra](/kapitoly/booleova-algebra.md)
+	- [Hradla](/kapitoly/hradla.md)
+	- [Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
 

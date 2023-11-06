@@ -278,8 +278,8 @@ bool Q = !(A ^ B);
 
 
 
-[Předchozí kapitola - Booleova-algebra](booleova-algebra.md)
+[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
 
-[Menu - Teorie](teorie.md)
+[Další kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
 
 [Hlavní menu](/README.md)
