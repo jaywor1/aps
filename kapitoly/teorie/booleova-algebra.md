@@ -25,7 +25,7 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | Název | Součet | Součin |
 |:-----:|:-------:|:-:|
 | komutativní | $x+y=y+x$ | $x{\cdot}y=y{\cdot}x$ |
-| distrubutivní | $(x+y){\cdot}z=x{\cdot}z+y{\cdot}z$ | $(x{\cdot}y)+z=(x+z){\cdot}(y+z)$ |
+| distrubutivní | $(x+y){\cdot}z=x{\cdot}z+y{\cdot}z$ | $(x \cdot y)+z=(x+z){\cdot}(y+z)$ |
 | o neutralitě 0 a 1 | $x+0=x$ | $x{\cdot}1=x$ |
 | vyloučení třetího | $x+\overline{x} = 1$ | $x{\cdot}\overline{x} = 0$ |
 
