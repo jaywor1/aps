@@ -14,7 +14,7 @@ Tedy
 
 ### Arch linux
 
-Můžeme nainstalvat z Arch AUR repozitáře pomocí `yay`
+Můžeme nainstalovat z Arch AUR repozitáře pomocí `yay`
 ```bash
 yay -S logisim-evolution
 ```
