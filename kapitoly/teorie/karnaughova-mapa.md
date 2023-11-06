@@ -46,7 +46,7 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
 ![](/obrazky/Torus_from_rectangle.gif)
 
 
-![[karnaughova-mapa-4.png]]
+![](karnaughova-mapa-4.png)
 
 ![](/obrazky/karnaughova-mapa-4.png)
 
