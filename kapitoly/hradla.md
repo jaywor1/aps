@@ -57,7 +57,7 @@ $Q = \overline{A}$
 
 Zápis v C
 
-```
+```c
 bool A;
 bool Q = !A;
 ```
