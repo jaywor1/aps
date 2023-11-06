@@ -2,16 +2,19 @@
 
 ## Instalace logisim-evolution
 
-Vyberte si operační systém:
+Obecně stáhneme z oficiálního git repa v releases https://github.com/logisim-evolution/logisim-evolution/releases
 
-- ![](#arch-linux)
+Tedy
 
+- Debian based - `.deb`
+- RPM package - `.rpm`
+- Windows - `.msi`
+- macOS - `.dmg`
+- Ostatní - `.jar`
 
 ### Arch linux
 
-Nainstalujeme z Arch AUR repozitáře pomocí `yay`
-viz. repo https://aur.archlinux.org/packages/logisim-evolution nebo přímo z git repa https://github.com/logisim-evolution/logisim-evolution
+Můžeme nainstalvat z Arch AUR repozitáře pomocí `yay`
 ```bash
 yay -S logisim-evolution
 ```
-
