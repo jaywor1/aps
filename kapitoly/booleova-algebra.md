@@ -17,8 +17,8 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | Název | Znak | Definice |
 | :-:|:-:|:-:|
 | Negace | $\neg$ nebo $\overline{x}$ | Neguje vstup, tedy z 1 dostaneme 0 a obráceně |
-| Disjunkce (spojení) | $\lor$  | Logické **nebo** |
-| Konjunkce (průsek) | $\land$ | Logické **a** |
+| Disjunkce (spojení) | $\lor$ nebo $+$  | Logické **nebo** |
+| Konjunkce (průsek) | $\land$ nebo $\cdot$ | Logické **a** |
 
 
 ### Axiomy
