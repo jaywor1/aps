@@ -24,6 +24,10 @@ Hradla, které mají jeden vstup jsou následující
 
 **Buffer** se převážně využívá na zopakování a posílení vstupu. Taky tím "ukazujete", jakým směrem teče proud.
 
+#### Symbol
+
+<img src="/obrazky/Buffer_ANSI_Labelled.svg.png" width="192px"/>
+
 #### Definice
 
 Matematická definice
@@ -49,6 +53,11 @@ bool Q = A;
 Hradlo **NOT** použijete, když potřebujete změnit hodnotu na její opak.
 
 Neboli 0 --> 1 nebo 1 --> 0
+
+#### Symbol
+
+<img src="/obrazky/1920px-NOT_ANSI_Labelled.svg.png" width="192px"/>
+
 #### Definice
 
 Matematická definice
@@ -83,6 +92,10 @@ Hradlo **AND** neboli logické **"a"** , se využívá když chcete naplnit dvě
 
 *Pokud platí A* **a** *B, tak pošli na výstup hodnotu 1*
 
+#### Symbol
+
+<img src="/obrazky/AND_ANSI_Labelled.svg.png" width="192px"/>
+
 #### Definice
 
 V Boolenově algebře se hradlo **AND** rovná násobení
@@ -111,6 +124,10 @@ Hradlo **OR** neboli logické **"nebo"** , se využívá když chcete naplnit as
 
 *Pokud platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
 
+#### Symbol
+
+<img src="/obrazky/OR_ANSI_Labelled.svg.png" width="192px"/>
+
 #### Definice
 
 V Boolenově algebře se hradlo **OR** rovná součtu
@@ -138,6 +155,10 @@ bool Q = A || B;
 Hradlo **XOR** neboli exkluzivní OR , se využívá když chcete naplnit pouze jednu podmíku. Jednoduše řečeno, když se sobě nerovnají.
 
 *Pokud platí ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
+
+#### Symbol
+
+<img src="/obrazky/1920px-XOR_ANSI_Labelled.svg.png" width="192px"/>
 
 #### Definice
 
@@ -178,6 +199,10 @@ Hradlo **NAND** má opačný výstup hradla **AND**
 
 *Pokud **ne**platí A* **a** *B, tak pošli na výstup hodnotu 1*
 
+#### Symbol
+
+<img src="/obrazky/1920px-NAND_ANSI_Labelled.svg.png" width="192px"/>
+
 #### Definice
 
 V Boolenově algebře se hradlo **NAND** rovná negaci násobení
@@ -205,6 +230,10 @@ bool Q = !(A && B);
 Hradlo **NOR** má opačný vstup hradla **OR**
 
 *Pokud **ne**platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
+
+#### Symbol
+
+<img src="/obrazky/1920px-NOR_ANSI_Labelled.svg.png" width="192px"/>
 
 #### Definice
 
@@ -234,6 +263,10 @@ bool Q = !(A || B);
 Hradlo **XNOR** je opak hradla **XOR**, jednoduše řečeno se jedná o ekvivalenci
 
 *Pokud se A **rovná** B*
+
+#### Symbol
+
+<img src="/obrazky/1920px-XNOR_ANSI_Labelled.svg.png" width="192px"/>
 
 #### Definice
 
