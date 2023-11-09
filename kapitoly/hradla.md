@@ -306,10 +306,7 @@ bool Q = !(A ^ B);
 
 ### Zobrazení logických bran v logisimu
 
-
-![](/obrazky/hradla.png)
-
-
+<img src="/obrazky/hradla.png" width="512px"/>
 
 [Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
 
