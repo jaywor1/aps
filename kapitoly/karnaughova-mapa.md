@@ -1,8 +1,25 @@
 # Karnaughova mapa
 
-Karnaughova mapa je prostředek pro minimalizaci logických obvodů.
+Karnaughova mapa je prostředek pro minimalizaci logických obvodů. Pro pochopení Karnaughovy mapy musíme první pochopit Grayův kód.
 
-### Vysvětlení na příkladu
+### Grayův kód
+
+Grayův kód je binární číselná soustava, ve které se **každé dvě po sobě jdoucí hodnoty liší v jedné bitové pozici**.
+
+Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
+
+|A|B|C|
+|:-:|:-:|:-:|
+|0|0|0|
+|0|0|**1**|
+|0|**1**|1|
+|0|1|**0**|
+|**1**|1|0|
+|1|1|**1**|
+|1|**0**|1|
+|1|0|**0**|
+
+### Karnaughova mapa - příklad
 
 Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 
