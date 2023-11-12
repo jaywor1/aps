@@ -4,7 +4,7 @@ Booleova algebra je algebraická struktura se dvěma binárními a jednou unárn
 
 Jedná se o šestici ($A$, $\land$, $\lor$, $-$,  $0$, $1$), kde $A$ je neprázdná množina
 
-- Nejmneší prvek $0 \in A$ 
+- Nejmenší prvek $0 \in A$ 
 - Největší prvek $1\in A$
 - Unární operace (negace) $\overline{0} = 1$
 

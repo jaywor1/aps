@@ -35,7 +35,7 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 | 1 | 1 | 1 | 0 |
 
 
-1. Vytvoříme si Karnachovu mapu (tam kde jsou písmena, tak je hodnota nastavená na 1)
+1. Vytvoříme si Karnaughovu mapu (tam kde jsou písmena, tak je hodnota nastavená na 1)
 
 <p align="center">
   <img src="/obrazky/karnachova-mapa.png" width=512px/>
@@ -47,7 +47,7 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
   <img src="/obrazky/karnaughova-mapa-2.png" width=512px/>
 </p>
 
-4. Zakroužkujeme největší obdelníky a vyjádříme je
+3. Zakroužkujeme největší obdelníky a vyjádříme je
 
 <p align="center">
   <img src="/obrazky/karnaughova-mapa-3.png" width=512px/>
