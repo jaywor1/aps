@@ -52,7 +52,7 @@ bool Q = A;
 
 Hradlo **NOT** použijete, když potřebujete změnit hodnotu na její opak.
 
-Neboli 0 --> 1 nebo 1 --> 0
+Neboli 0 &rarr; 1 nebo 1 &rarr; 0
 
 #### Symbol
 
