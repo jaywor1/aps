@@ -4,9 +4,11 @@
 
 a) NOT
 <details>
+  <summary>Řešení - symbol</summary>
+  <img src="/obrazky/1920px-NOT_ANSI_Labelled.svg.png" width=192px>
+</details>
+<details>
   <summary>Řešení</summary>
-  
-<img src="/obrazky/1920px-NOT_ANSI_Labelled.svg.png" width=192px>
 
 $X = \overline{A}$
 
@@ -18,11 +20,13 @@ $X = \overline{A}$
 </details>
 
 b) OR
-
 <details>
-  <summary>Řešení</summary>
+  <summary>Řešení - symbol</summary>
   
 <img src="/obrazky/OR_ANSI_Labelled.svg.png" width="192px"/>
+</details>
+<details>
+  <summary>Řešení</summary>
 
 $X = A + B$
 
@@ -36,11 +40,12 @@ $X = A + B$
 </details>
 
 c) XNOR
-
+<details>
+  <summary>Řešení - symbol</summary>
+<img src="/obrazky/1920px-XNOR_ANSI_Labelled.svg.png" width="192px"/>
+</details>
 <details>
   <summary>Řešení</summary>
-  
-<img src="/obrazky/1920px-XNOR_ANSI_Labelled.svg.png" width="192px"/>
 
 $X = \overline{(A \bigoplus B)}$
 
@@ -54,12 +59,13 @@ $X = \overline{(A \bigoplus B)}$
 </details>
 
 d) AND
-
+<details>
+  <summary>Řešení - symbol</summary>
+<img src="/obrazky/AND_ANSI_Labelled.svg.png" width="192px"/>
+</details>
 <details>
   <summary>Řešení</summary>
   
-<img src="/obrazky/AND_ANSI_Labelled.svg.png" width="192px"/>
-
 $X = A \cdot B$
 
 |A|B|X|
@@ -129,3 +135,58 @@ $X = \overline{(A \cdot B)}$
 
 #### 3. Zapiš výraz pro výstupy zapojení a pro označené vodiče:
 
+![](/obrazky/teorie-cviko-1.png)
+
+<details>
+  <summary>Řešení</summary>
+
+a) $A+B$
+
+b) $\overline{C}$
+
+$X = (A+B) \bigoplus \overline{C}$
+
+</details>
+
+![](/obrazky/teorie-cviko-2.png)
+
+<details>
+  <summary>Řešení</summary>
+
+a) $\overline{A}$
+
+b) $B+C$
+
+c) $\overline{(B+C) \bigoplus D}$
+
+$X = \overline{A} * (B+C)$
+
+$Y = (B+C) * \overline{(B+C) \bigoplus D}$
+
+</details>
+
+
+#### 4. Nakresli zapojení pro následující výraz a nakresli pravdivnostní tabulku
+
+$X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
+
+<details>
+  <summary>Řešení - zapojení</summary>
+<img src="/obrazky/teorie-cviko-3.png">
+
+</details>
+<details>
+  <summary>Řešení - tabulka</summary>
+
+|$A$|$B$|$C$|$A \cdot B$|$\overline{A \bigoplus C} $| $\overline{B}$ | $X$ |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 0 | 1 |
+
+</details>
