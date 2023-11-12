@@ -16,3 +16,9 @@ Můžeme nainstalovat z Arch AUR repozitáře pomocí `yay`
 ```bash
 yay -S logisim-evolution
 ```
+
+### Logisim template
+
+Všechny gaty jsou nastaveny na `narrow`
+
+![Download - template](/logisim/template.circ)
