@@ -100,7 +100,7 @@ Hradlo **AND** neboli logické **"a"** , se využívá když chcete naplnit dvě
 
 V Boolenově algebře se hradlo **AND** rovná násobení
 
-$Q = A * B$
+$Q = A \cdot B$
 
 Zápis v C:
 
