@@ -1,6 +1,6 @@
 # Teorie - Příprava na test
 
-#### 1. **Nakresli logická hradla**, zapiš **operátor hradla jako výraz** (např. $X=A+B$), nakresli **pravdivostní tabulku**:
+#### 1. **Nakresli logická hradla**, zapiš **operátor hradla jako výraz** (např. X=A+B), nakresli **pravdivostní tabulku**:
 
 a) NOT
 <details>
