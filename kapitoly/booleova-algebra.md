@@ -14,11 +14,11 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 
 ### Základní matematické symboly
 
-| Název | Znak | Definice |
-| :-:|:-:|:-:|
-| Negace | $\neg$ nebo $\overline{x}$ | Neguje vstup, tedy z 1 dostaneme 0 a obráceně |
-| Disjunkce (spojení) | $\lor$ nebo $+$  | Logické **nebo** |
-| Konjunkce (průsek) | $\land$ nebo $\cdot$ | Logické **a** |
+| Název | Operátor | Operátor v predikátové logice | Definice |
+| :-:|:-:|:-:|:-:|
+| Negace | $\overline{x}$ | $\neg{x}$ | Neguje vstup, tedy z 1 dostaneme 0 a obráceně |
+| Disjunkce (spojení) | $+$ | $\lor$ | Logické **nebo** |
+| Konjunkce (průsek) | $\cdot$ | $\land$ |Logické **a** |
 
 
 ### Axiomy
