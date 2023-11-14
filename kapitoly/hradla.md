@@ -227,7 +227,7 @@ bool Q = !(A && B);
 |1|1|0|
 
 ### NOR
-Má výstup $1$ pouze v případě, že $A$ ani $B$ nejsou $1$
+Má výstup 1 pouze v případě, že A ani B nejsou
 
 #### Symbol
 
