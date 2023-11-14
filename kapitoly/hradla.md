@@ -154,7 +154,7 @@ bool Q = A || B;
 ### XOR
 Hradlo **XOR** neboli exkluzivní OR , se využívá když chcete naplnit pouze jednu podmíku. Jednoduše řečeno, když se sobě nerovnají.
 
-*Pokud platí ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
+*Pokud platí* ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
 
 #### Symbol
 
@@ -227,7 +227,7 @@ bool Q = !(A && B);
 |1|1|0|
 
 ### NOR
-Má výstup 1 pouze v případě, že A ani B nejsou
+*Má výstup* ***1*** *pouze v případě, že* ***A ani B nejsou 1***
 
 #### Symbol
 
