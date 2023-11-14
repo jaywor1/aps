@@ -45,7 +45,7 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 
 ----
 
-**Pomocí pravidel zjednodušujeme příklady viz. [link](/kapitoly/teorie-priprava-test.md#5-zjednoduš-následující-výraz-do-co-nejjednodušší-podoby)**
+**Pomocí pravidel zjednodušujeme výrazy viz. [link](/kapitoly/teorie-priprava-test.md#5-zjednoduš-následující-výraz-do-co-nejjednodušší-podoby)**
 
 ----
 
