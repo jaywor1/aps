@@ -227,9 +227,7 @@ bool Q = !(A && B);
 |1|1|0|
 
 ### NOR
-Hradlo **NOR** má opačný vstup hradla **OR**
-
-*Pokud **ne**platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
+Má výstup $1$ pouze v případě, že $A$ ani $B$ nejsou $1$
 
 #### Symbol
 
