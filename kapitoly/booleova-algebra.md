@@ -19,7 +19,7 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | Negace | $\overline{x}$ | $\neg{x}$ | Neguje vstup, tedy z 1 dostaneme 0 a obráceně |
 | Disjunkce (spojení) | $+$ | $\lor$ | Logické **nebo** |
 | Konjunkce (průsek) | $\cdot$ | $\land$ |Logické **a** |
-| XOR | $\bigoplus$ |  | Exkluzivní disjunkce/OR |
+| XOR | $\bigoplus$ | $\nRightarrow$ | Exkluzivní disjunkce/OR |
 
 
 ### Axiomy
