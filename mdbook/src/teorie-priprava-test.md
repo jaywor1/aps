@@ -10,7 +10,7 @@ a) NOT
 <details>
   <summary>Řešení</summary>
 
-$X = \overline{A}$
+\\(X = \overline{A}\\)
 
 |A|X|
 |:-:|:-:|
@@ -28,7 +28,7 @@ b) OR
 <details>
   <summary>Řešení</summary>
 
-$X = A + B$
+\\(X = A + B\\)
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -47,7 +47,7 @@ c) XNOR
 <details>
   <summary>Řešení</summary>
 
-$X = \overline{(A \bigoplus B)}$
+\\(X = \overline{(A \bigoplus B)}\\)
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -66,7 +66,7 @@ d) AND
 <details>
   <summary>Řešení</summary>
   
-$X = A \cdot B$
+\\(X = A \cdot B\\)
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -86,7 +86,7 @@ a) <img src="/obrazky/1920px-NOR_ANSI_Labelled.svg.png" width="192px"/>
 
 NOR
 
-$X = \overline{(A + B)}$
+\\(X = \overline{(A + B)}\\)
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -104,7 +104,7 @@ b) <img src="/obrazky/1920px-XOR_ANSI_Labelled.svg.png" width="192px"/>
 
 XOR
 
-$X = A \bigoplus B$
+\\(X = A \bigoplus B\\)
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -122,7 +122,7 @@ c) <img src="/obrazky/1920px-NAND_ANSI_Labelled.svg.png" width="192px"/>
 
 NAND
 
-$X = \overline{(A \cdot B)}$
+\\(X = \overline{(A \cdot B)}\\)
 
 |A|B|Q|
 |:-:|:-:|:-:|
@@ -140,11 +140,11 @@ $X = \overline{(A \cdot B)}$
 <details>
   <summary>Řešení</summary>
 
-a) $A+B$
+a) \\(A+B\\)
 
-b) $\overline{C}$
+b) \\(\overline{C}\\)
 
-$X = (A+B) \bigoplus \overline{C}$
+\\(X = (A+B) \bigoplus \overline{C}\\)
 
 </details>
 
@@ -153,22 +153,22 @@ $X = (A+B) \bigoplus \overline{C}$
 <details>
   <summary>Řešení</summary>
 
-a) $\overline{A}$
+a) \\(\overline{A}\\)
 
-b) $B+C$
+b) \\(B+C\\)
 
-c) $\overline{(B+C) \bigoplus D}$
+c) \\(\overline{(B+C) \bigoplus D}\\)
 
-$X = \overline{A} * (B+C)$
+\\(X = \overline{A} * (B+C)\\)
 
-$Y = (B+C) * \overline{(B+C) \bigoplus D}$
+\\(Y = (B+C) * \overline{(B+C) \bigoplus D}\\)
 
 </details>
 
 
 #### 4. Nakresli zapojení pro následující výraz a nakresli pravdivnostní tabulku
 
-$X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
+\\(X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}\\)
 
 <details>
   <summary>Řešení - zapojení</summary>
@@ -178,7 +178,7 @@ $X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
 <details>
   <summary>Řešení - tabulka</summary>
 
-|$A$|$B$|$C$|$A \cdot B$|$\overline{A \bigoplus C} $| $\overline{B}$ | $X$ |
+|\\(A\\)|\\(B\\)|\\(C\\)|\\(A \cdot B\\)|\\(\overline{A \bigoplus C} \\)| \\(\overline{B}\\) | \\(X\\) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
