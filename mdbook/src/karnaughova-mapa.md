@@ -21,7 +21,7 @@ Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
 
 ### Karnaughova mapa - příklad
 
-Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
+Máme pravdivnostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
 
 | A | B | C | Q |
 |:-:|:-:|:-:|:-:|
@@ -53,14 +53,14 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
   <img src="/obrazky/karnaughova-mapa-3.png" width=512px/>
 </p>
 
-Vidíme, že je blok nezávislý na tom jestli je $A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C$
+Vidíme, že je blok nezávislý na tom jestli je \\(A\\) \\(0\\) nebo \\(1\\) , takže zahrneme jen proměnou \\(B\\) a \\(C\\)
 
-- $B$ musí být $0$
-- $C$ musí být $0$
+- \\(B\\) musí být \\(0\\)
+- \\(C\\) musí být \\(0\\)
 
-$$Q_1 = \overline{B} * \overline{C}$$
+\\(Q_1 = \overline{B} * \overline{C}\\)
 
-Součin jsme použili, protože je $*$ totožné logickému *a zároveň platí* (v programovacím jazyku C -->`&&`)
+Součin jsme použili, protože je \\(\cdot\\) totožné logickému *a zároveň platí* (v programovacím jazyku C -->`&&`)
 
 Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se nacházejí "vedle sebe" (na začátku a na konci)
 
@@ -74,18 +74,18 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
   <img src="/obrazky/karnaughova-mapa-4.png" width=512px/>
 </p>
 
-Vidíme, že je výraz $Q_2$ nezávislý na proměnné $B$ (může být $0$ nebo $1$)
+Vidíme, že je výraz \\(Q_2\\) nezávislý na proměnné \\(B\\) (může být \\(0\\) nebo \\(1\\))
 
-- $A$ musí být $0$
-- $C$ musí být $0$
+- \\(A\\) musí být \\(0\\)
+- \\(C\\) musí být \\(0\\)
 
-$$Q_2 = \overline{A} * \overline{C}$$
+\\(Q_2 = \overline{A} * \overline{C}\\)
 
 4. Sjednotíme výrazy
 
 Výsledné výrazy sečteme
 
-$$Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})$$
+\\(Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})\\)
 
 5. Výsledný výraz si můžeme postavit v logisimu viz. obrázek
 
