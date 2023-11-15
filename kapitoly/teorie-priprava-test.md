@@ -159,9 +159,9 @@ b) $B+C$
 
 c) $\overline{(B+C) \bigoplus D}$
 
-$X = \overline{A} * (B+C)$
+$X = \overline{A} \cdot (B+C)$
 
-$Y = (B+C) * \overline{(B+C) \bigoplus D}$
+$Y = (B+C) \cdot \overline{(B+C) \bigoplus D}$
 
 </details>
 
@@ -203,7 +203,7 @@ $X=(AC + C + B) + \overline{B \cdot \overline{C}} + \overline{C}(\overline{A}C +
 
 $X = (C(A+1)+B)+\overline{B}+C+\overline{C}(C(\overline{A}+1))$
 
-$X = (AC+B)+\overline{B} + C + \overline{C} * (\overline{A}C)$
+$X = (AC+B)+\overline{B} + C + \overline{C} \cdot (\overline{A}C)$
 
 $X = AC + B + \overline{B} + C + 0$
 
