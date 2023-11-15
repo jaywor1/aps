@@ -307,9 +307,3 @@ bool Q = !(A ^ B);
 ### Zobrazení logických bran v logisimu
 
 <img src="https://github.com/jaywor1/aps/blob/main/obrazky/hradla.png?raw=true" width="512px">
-
-[Další kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
-
-[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
-
-[Hlavní menu](/README.md)

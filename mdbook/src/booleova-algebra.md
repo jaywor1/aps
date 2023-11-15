@@ -42,8 +42,3 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | o idempotenci prvků (absorbce) |\\(x+x=x\\)|\\(x{\cdot}x=x\\)|
 | absorbce | \\(x+x{\cdot}y=x\\) | \\(x{\cdot}(x+y)=x\\) |
 | dvojí negace | \\(\overline{\overline{{x}}} = x\\) | \\(\overline{\overline{{x}}} = x\\) |
-
-
-[Další kapitola - Hradla](/kapitoly/hradla.md)
-
-[Hlavní menu](/README.md)
