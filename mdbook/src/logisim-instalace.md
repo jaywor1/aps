@@ -1,6 +1,6 @@
 # Instalace Logisimu
 
-Obecně stáhneme z oficiálního git repa v releases https://github.com/logisim-evolution/logisim-evolution/releases
+Obecně stáhneme z oficiálního git repa v releases [https://github.com/logisim-evolution/logisim-evolution/releases](https://github.com/logisim-evolution/logisim-evolution/releases)
 
 Tedy
 
@@ -21,4 +21,4 @@ yay -S logisim-evolution
 
 Všechny gaty jsou nastaveny na `narrow`
 
-![Download - template](/logisim/template.circ)
+[Download - template](https://github.com/jaywor1/aps/blob/main/logisim/template.circ)
