@@ -1,6 +1,7 @@
 # Summary
 
-- [Instalace](./logisim-instalace.md)
+- [Příprava prostředí]()
+    - [Logisim](./logisim-instalace.md)
 
 - [Teorie]()
     - [Booleova algebra](./booleova-algebra.md)
