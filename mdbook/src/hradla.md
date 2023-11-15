@@ -32,7 +32,7 @@ Hradla, které mají jeden vstup jsou následující
 
 Matematická definice
 
-$Q = A$
+\\(Q = A\\)
 
 Zápis v C
 
@@ -62,7 +62,7 @@ Neboli 0 &rarr; 1 nebo 1 &rarr; 0
 
 Matematická definice
 
-$Q = \overline{A}$
+\\(Q = \overline{A}\\)
 
 Zápis v C
 
@@ -100,7 +100,7 @@ Hradlo **AND** neboli logické **"a"** , se využívá když chcete naplnit dvě
 
 V Booleově algebře se hradlo **AND** rovná násobení
 
-$Q = A \cdot B$
+\\(Q = A \cdot B\\)
 
 Zápis v C:
 
@@ -132,7 +132,7 @@ Hradlo **OR** neboli logické **"nebo"** , se využívá když chcete naplnit as
 
 V Booleově algebře se hradlo **OR** rovná součtu
 
-$Q = A + B$
+\\(Q = A + B\\)
 
 Zápis v C:
 
@@ -162,9 +162,9 @@ Hradlo **XOR** neboli exkluzivní OR , se využívá když chcete naplnit pouze 
 
 #### Definice
 
-V Booleově algebře se pro hradlo **XOR** používá symbol $\bigoplus$
+V Booleově algebře se pro hradlo **XOR** používá symbol \\(\bigoplus\\)
 
-$Q = A \bigoplus B$
+\\(Q = A \bigoplus B\\)
 
 Zápis v C
 
@@ -207,7 +207,7 @@ Hradlo **NAND** má opačný výstup hradla **AND**
 
 V Booleově algebře se hradlo **NAND** rovná negaci násobení
 
-$Q = \overline{(A \cdot B)}$
+\\(Q = \overline{(A \cdot B)}\\)
 
 Zápis v C:
 
@@ -239,7 +239,7 @@ Hradlo **NOR** má opačný vstup hradla **OR**
 
 V Booleově algebře se hradlo **NOR** rovná negaci součtu
 
-$Q = \overline{(A + B)}$
+\\(Q = \overline{(A + B)}\\)
 
 Zápis v C:
 
@@ -270,9 +270,9 @@ Hradlo **XNOR** je opak hradla **XOR**, jednoduše řečeno se jedná o ekvivale
 
 #### Definice
 
-V Booleově algebře se hradlo **XNOR** rovná negaci operaci $\bigoplus$
+V Booleově algebře se hradlo **XNOR** rovná negaci operaci \((\bigoplus\))
 
-$Q = \overline{(A \bigoplus B)}$
+\\(Q = \overline{(A \bigoplus B)}\\)
 
 Zápis v C:
 
