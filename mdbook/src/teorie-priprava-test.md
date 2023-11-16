@@ -159,9 +159,9 @@ b) \\(B+C\\)
 
 c) \\(\overline{(B+C) \bigoplus D}\\)
 
-\\(X = \overline{A} * (B+C)\\)
+\\(X = \overline{A} \cdot (B+C)\\)
 
-\\(Y = (B+C) * \overline{(B+C) \bigoplus D}\\)
+\\(Y = (B+C) \cdot \overline{(B+C) \bigoplus D}\\)
 
 </details>
 
