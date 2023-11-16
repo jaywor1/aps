@@ -44,9 +44,9 @@ Máme pravdivnostní tabulku se vstupy $A,B,C,D$ a výstupem $Q$:
 
 1. Vytvoříme tabulku pomocí indexů v pravdivnostní tabulce (odvíjí se od Grayova kódu). Neboli doplníme do obrázku
 
-<img src="/obrazky/K-map_minterms_A.svg.png" width="256px">
+<p><img src="/obrazky/K-map_minterms_A.svg.png" width="648px"></p>
 
-<img src="/obrazky/karnaughova-mapa-1-1.png" width="256px">
+<p><img src="/obrazky/karnaughova-mapa-1-1.png" width="648px"></p>
 
 ### Karnaughova mapa - příklad 2
 
