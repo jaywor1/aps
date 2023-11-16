@@ -159,9 +159,9 @@ b) $B+C$
 
 c) $\overline{(B+C) \bigoplus D}$
 
-$X = \overline{A} * (B+C)$
+$X = \overline{A} \cdot (B+C)$
 
-$Y = (B+C) * \overline{(B+C) \bigoplus D}$
+$Y = (B+C) \cdot \overline{(B+C) \bigoplus D}$
 
 </details>
 
@@ -188,5 +188,27 @@ $X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
 | 1 | 0 | 1 | 0 | 1 | 1 | 1 |
 | 1 | 1 | 0 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |
+
+</details>
+
+#### 5. Zjednoduš následující výraz do co nejjednodušší podoby
+
+Výsledek zde: $\Box$
+
+$X=(AC + C + B) + \overline{B \cdot \overline{C}} + \overline{C}(\overline{A}C +C)$
+
+</details>
+<details>
+  <summary>Řešení</summary>
+
+$X = (C(A+1)+B)+\overline{B}+C+\overline{C}(C(\overline{A}+1))$
+
+$X = (AC+B)+\overline{B} + C + \overline{C} \cdot (\overline{A}C)$
+
+$X = AC + B + \overline{B} + C + 0$
+
+$X = AC + 1 + C$
+
+$X = 1$
 
 </details>
