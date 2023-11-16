@@ -1,0 +1,9 @@
+[book]
+authors = ["jaywor1"]
+language = "en"
+multilingual = false
+src = "src"
+title = "APS"
+
+[output.html]
+mathjax-support = true

@@ -26,13 +26,13 @@ Hradla, které mají jeden vstup jsou následující
 
 #### Symbol
 
-<img src="/obrazky/Buffer_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/Buffer_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 Matematická definice
 
-$Q = A$
+\\(Q = A\\)
 
 Zápis v C
 
@@ -56,13 +56,13 @@ Neboli 0 &rarr; 1 nebo 1 &rarr; 0
 
 #### Symbol
 
-<img src="/obrazky/1920px-NOT_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NOT_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 Matematická definice
 
-$Q = \overline{A}$
+\\(Q = \overline{A}\\)
 
 Zápis v C
 
@@ -94,13 +94,13 @@ Hradlo **AND** neboli logické **"a"** , se využívá když chcete naplnit dvě
 
 #### Symbol
 
-<img src="/obrazky/AND_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/AND_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 V Booleově algebře se hradlo **AND** rovná násobení
 
-$Q = A \cdot B$
+\\(Q = A \cdot B\\)
 
 Zápis v C:
 
@@ -126,13 +126,13 @@ Hradlo **OR** neboli logické **"nebo"** , se využívá když chcete naplnit as
 
 #### Symbol
 
-<img src="/obrazky/OR_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/OR_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 V Booleově algebře se hradlo **OR** rovná součtu
 
-$Q = A + B$
+\\(Q = A + B\\)
 
 Zápis v C:
 
@@ -154,17 +154,17 @@ bool Q = A || B;
 ### XOR
 Hradlo **XOR** neboli exkluzivní OR , se využívá když chcete naplnit pouze jednu podmíku. Jednoduše řečeno, když se sobě nerovnají.
 
-*Pokud platí* ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
+*Pokud platí ***právě*** *A* ***nebo*** ***právě*** *B, tak pošli na výstup hodnotu 1 ... Pokud se A **nerovná** B* 
 
 #### Symbol
 
-<img src="/obrazky/1920px-XOR_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-XOR_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
-V Booleově algebře se pro hradlo **XOR** používá symbol $\bigoplus$
+V Booleově algebře se pro hradlo **XOR** používá symbol \\(\bigoplus\\)
 
-$Q = A \bigoplus B$
+\\(Q = A \bigoplus B\\)
 
 Zápis v C
 
@@ -201,13 +201,13 @@ Hradlo **NAND** má opačný výstup hradla **AND**
 
 #### Symbol
 
-<img src="/obrazky/1920px-NAND_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NAND_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 V Booleově algebře se hradlo **NAND** rovná negaci násobení
 
-$Q = \overline{(A \cdot B)}$
+\\(Q = \overline{(A \cdot B)}\\)
 
 Zápis v C:
 
@@ -227,17 +227,19 @@ bool Q = !(A && B);
 |1|1|0|
 
 ### NOR
-*Má výstup* ***1*** *pouze v případě, že* ***A ani B nejsou 1***
+Hradlo **NOR** má opačný vstup hradla **OR**
+
+*Pokud **ne**platí A* **nebo** *B, tak pošli na výstup hodnotu 1*
 
 #### Symbol
 
-<img src="/obrazky/1920px-NOR_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NOR_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
 V Booleově algebře se hradlo **NOR** rovná negaci součtu
 
-$Q = \overline{(A + B)}$
+\\(Q = \overline{(A + B)}\\)
 
 Zápis v C:
 
@@ -264,13 +266,13 @@ Hradlo **XNOR** je opak hradla **XOR**, jednoduše řečeno se jedná o ekvivale
 
 #### Symbol
 
-<img src="/obrazky/1920px-XNOR_ANSI_Labelled.svg.png" width="192px"/>
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-XNOR_ANSI_Labelled.svg.png?raw=true" width="192px">
 
 #### Definice
 
-V Booleově algebře se hradlo **XNOR** rovná negaci operaci $\bigoplus$
+V Booleově algebře se hradlo **XNOR** rovná negaci operaci \((\bigoplus\))
 
-$Q = \overline{(A \bigoplus B)}$
+\\(Q = \overline{(A \bigoplus B)}\\)
 
 Zápis v C:
 
@@ -304,10 +306,4 @@ bool Q = !(A ^ B);
 
 ### Zobrazení logických bran v logisimu
 
-<img src="/obrazky/hradla.png" width="512px"/>
-
-[Další kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
-
-[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
-
-[Hlavní menu](/README.md)
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/hradla.png?raw=true" width="512px">
