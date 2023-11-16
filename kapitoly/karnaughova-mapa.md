@@ -19,7 +19,36 @@ Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
 |1|**0**|1|
 |1|0|**0**|
 
-### Karnaughova mapa - příklad
+### Karnaughova mapa - příklad 1
+
+Máme pravdivnostní tabulku se vstupy $A,B,C,D$ a výstupem $Q$:
+
+| A | B | C | D | Q | index bitu |
+|:-:|:-:|:-:|:-:|:-:|:----------:|
+| 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 1 | 2 |
+| 0 | 0 | 1 | 1 | 1 | 3 |
+| 0 | 1 | 0 | 0 | 0 | 4 |
+| 0 | 1 | 0 | 1 | 1 | 5 |
+| 0 | 1 | 1 | 0 | 0 | 6 |
+| 0 | 1 | 1 | 1 | 1 | 7 |
+| 1 | 0 | 0 | 0 | 1 | 8 |
+| 1 | 0 | 0 | 1 | 0 | 9 |
+| 1 | 0 | 1 | 0 | 1 | 10 |
+| 1 | 0 | 1 | 1 | 0 | 11 |
+| 1 | 1 | 0 | 0 | 0 | 12 |
+| 1 | 1 | 0 | 1 | 1 | 13 |
+| 1 | 1 | 1 | 0 | 0 | 14 |
+| 1 | 1 | 1 | 1 | 0 | 15 |
+
+1. Vytvoříme tabulku pomocí indexů v pravdivnostní tabulce (odvíjí se od Grayova kódu). Neboli doplníme do obrázku
+
+<img src="/obrazky/K-map_minterms_A.svg.png" width="256px">
+
+<img src="/obrazky/karnaughova-mapa-1-1.png" width="256px">
+
+### Karnaughova mapa - příklad 2
 
 Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 
