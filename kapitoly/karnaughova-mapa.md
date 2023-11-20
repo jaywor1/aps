@@ -30,14 +30,14 @@ Máme pravdivnostní tabulku se vstupy $A,B,C,D$ a výstupem $Q$:
 | 0 | 0 | 1 | 0 | 1 | 2 |
 | 0 | 0 | 1 | 1 | 1 | 3 |
 | 0 | 1 | 0 | 0 | 0 | 4 |
-| 0 | 1 | 0 | 1 | 1 | 5 |
+| 0 | 1 | 0 | 1 | 0 | 5 |
 | 0 | 1 | 1 | 0 | 0 | 6 |
-| 0 | 1 | 1 | 1 | 1 | 7 |
+| 0 | 1 | 1 | 1 | 0 | 7 |
 | 1 | 0 | 0 | 0 | 1 | 8 |
-| 1 | 0 | 0 | 1 | 0 | 9 |
+| 1 | 0 | 0 | 1 | 1 | 9 |
 | 1 | 0 | 1 | 0 | 1 | 10 |
-| 1 | 0 | 1 | 1 | 0 | 11 |
-| 1 | 1 | 0 | 0 | 0 | 12 |
+| 1 | 0 | 1 | 1 | 1 | 11 |
+| 1 | 1 | 0 | 0 | 1 | 12 |
 | 1 | 1 | 0 | 1 | 1 | 13 |
 | 1 | 1 | 1 | 0 | 0 | 14 |
 | 1 | 1 | 1 | 1 | 0 | 15 |
@@ -59,7 +59,7 @@ Musíme zakroužkovat všechny $1$, kroužkujeme buď samostatnou $1$ nebo sudé
 3. Vytvoříme výrazy
 
 - Růžová - $A \cdot \overline{C}$
-- Zelená -$A \cdot \overline{B}$
+- Zelená - $A \cdot \overline{B}$
 - Modrá - $\overline{B} \cdot C$
 - Oranžová - $\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D$
 
