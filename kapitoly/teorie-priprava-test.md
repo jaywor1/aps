@@ -197,7 +197,6 @@ Výsledek zde: $\Box$
 
 $X=(AC + C + B) + \overline{B \cdot \overline{C}} + \overline{C}(\overline{A}C +C)$
 
-</details>
 <details>
   <summary>Řešení</summary>
 
@@ -210,5 +209,26 @@ $X = AC + B + \overline{B} + C + 0$
 $X = AC + 1 + C$
 
 $X = 1$
+
+</details>
+
+---
+
+Výsledek zde $\Box + \Box$
+
+$X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C$
+
+<details>
+  <summary>Řešení</summary>
+
+$X = (A+C)(A \cdot B + A \cdot \overline{B}) + C$
+
+$X = (A+C)(A \cdot (B+\overline{B})) + C$
+
+$X = ((A+C) \cdot A) + C$
+
+$X = A \cdot A + A \cdot C + C$
+
+$X = A +C$
 
 </details>

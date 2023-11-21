@@ -212,3 +212,24 @@ Výsledek zde: \\(\Box\\)
 \\(X = 1\\)
 
 </details>
+
+---
+
+Výsledek zde \\(\Box + \Box\\)
+
+\\(X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C$
+
+<details>
+  <summary>Řešení</summary>
+
+\\(X = (A+C)(A \cdot B + A \cdot \overline{B}) + C\\)
+
+\\(X = (A+C)(A \cdot (B+\overline{B})) + C\\)
+
+\\(X = ((A+C) \cdot A) + C\\)
+
+\\(X = A \cdot A + A \cdot C + C\\)
+
+\\(X = A +C\\)
+
+</details>
