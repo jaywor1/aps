@@ -215,9 +215,9 @@ Výsledek zde: \\(\Box\\)
 
 ---
 
-Výsledek zde \\(\Box + \Box\\)
+Výsledek zde: \\(\Box + \Box\\)
 
-\\(X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C$
+\\(X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C\\)
 
 <details>
   <summary>Řešení</summary>
