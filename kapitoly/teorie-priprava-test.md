@@ -212,6 +212,8 @@ $X = 1$
 
 </details>
 
+---
+
 Výsledek zde $\Box + \Box$
 
 $X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C$
