@@ -19,7 +19,59 @@ Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
 |1|**0**|1|
 |1|0|**0**|
 
-### Karnaughova mapa - příklad
+### Karnaughova mapa - příklad 1
+
+Máme pravdivnostní tabulku se vstupy $A,B,C,D$ a výstupem $Q$:
+
+| A | B | C | D | Q | index bitu |
+|:-:|:-:|:-:|:-:|:-:|:----------:|
+| 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 1 | 2 |
+| 0 | 0 | 1 | 1 | 1 | 3 |
+| 0 | 1 | 0 | 0 | 0 | 4 |
+| 0 | 1 | 0 | 1 | 0 | 5 |
+| 0 | 1 | 1 | 0 | 0 | 6 |
+| 0 | 1 | 1 | 1 | 0 | 7 |
+| 1 | 0 | 0 | 0 | 1 | 8 |
+| 1 | 0 | 0 | 1 | 1 | 9 |
+| 1 | 0 | 1 | 0 | 1 | 10 |
+| 1 | 0 | 1 | 1 | 1 | 11 |
+| 1 | 1 | 0 | 0 | 1 | 12 |
+| 1 | 1 | 0 | 1 | 1 | 13 |
+| 1 | 1 | 1 | 0 | 0 | 14 |
+| 1 | 1 | 1 | 1 | 0 | 15 |
+
+1. Vytvoříme tabulku pomocí indexů v pravdivnostní tabulce (odvíjí se od Grayova kódu). Neboli doplníme do obrázku
+
+<p><img src="/obrazky/K-map_minterms_A.svg.png" width="648px"></p>
+
+Vznikne nám následující tabulka
+
+<p><img src="/obrazky/karnaughova-mapa-1-1.png" width="512px"></p>
+
+2. Zakroužkujeme sousedy
+
+Musíme zakroužkovat všechny $1$, kroužkujeme buď samostatnou $1$ nebo sudé počty jedniček $2,4,6...$
+
+<p><img src="/obrazky/karnaughova-mapa-1-2.png" width="512px"></p>
+
+3. Vytvoříme výrazy
+
+- Růžová - $A \cdot \overline{C}$
+- Zelená - $A \cdot \overline{B}$
+- Modrá - $\overline{B} \cdot C$
+- Oranžová - $\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D$
+
+4. Sečteme výrazy
+
+$(A \cdot \overline{C}) + (A \cdot \overline{B}) + (\overline{B} \cdot C ) + (\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D)$
+
+5. Upravíme výraz
+
+$A\overline{C}+A\overline{B}+\overline{B}C+\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D = A\overline{C} + \overline{B} \cdot (A + C + \overline{A} \cdot \overline{C} \cdot D)$
+
+### Karnaughova mapa - příklad 2
 
 Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
 
