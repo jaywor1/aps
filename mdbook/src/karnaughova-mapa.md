@@ -118,7 +118,7 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
 
 
 <p align="center">
-  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/Torus_from_rectangle.gif" width=512px/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Torus_from_rectangle.gif" width=512px/>
 </p>
 
 
