@@ -50,5 +50,5 @@ Vytvořte obvod, kde budou 2 piny označené `A`,`B` a budou procházet hradlem 
 
 <details>
   <summary>Řešení</summary>
-<img src="/obrazky/logisim-uvod-reseni.png"/>
+<img src="/obrazky/logisim-uvod-reseni.png" width="512px"/>
 </details>
