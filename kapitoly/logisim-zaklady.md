@@ -28,7 +28,7 @@ První rozklikneme složku `Wiring` a klikneme na komponent `Pin`
 
 Následně máme komponent vybraný a můžeme ho hodit do našeho obvodu (Do červené plochy z obrázku)
 
-## Vlastnosti komponent
+### Vlastnosti komponent
 
 <img src="/obrazky/logisim-uvod-3.png"/>
 
