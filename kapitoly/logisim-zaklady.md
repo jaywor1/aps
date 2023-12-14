@@ -2,7 +2,7 @@
 
 Po úspěšném nainstalovaní `logisim-evolution` (viz. [návod](/kapitoly/logisim-instalace.md)) a spuštěním, uvidíte tohle:
 
-<img src="/obrazky/logisim-zaklady-uvod.png">
+<img src="/obrazky/logisim-zaklady-uvod.png"/>
 
 ## Template
 
@@ -20,7 +20,7 @@ File --> Save As --> Uložíme nový soubor (taky můžeme použít zkratku `Ctr
 
 ## Základy
 
-<img src="/obrazky/logisim-uvod-2.png">
+<img src="/obrazky/logisim-uvod-2.png"/>
 
 V zeléném obdelníku se vyskytují složky obsahující různé komponenty.
 
@@ -30,7 +30,7 @@ Následně máme komponent vybraný a můžeme ho hodit do našeho obvodu (Do č
 
 ## Vlastnosti komponent
 
-<img src="/obrazky/logisim-uvod-3.png">
+<img src="/obrazky/logisim-uvod-3.png"/>
 
 Jsou 2 možnosti jak změnit vlastnosti komponent:
 - Pouze pro jednu instanci komponentu
@@ -50,5 +50,5 @@ Vytvořte obvod, kde budou 2 piny označené `A`,`B` a budou procházet hradlem 
 
 <details>
   <summary>Řešení</summary>
-<img src="/obrazky/logisim-uvod-reseni.png" width="192px"/>
+<img src="/obrazky/logisim-uvod-reseni.png"/>
 </details>
