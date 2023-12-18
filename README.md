@@ -15,3 +15,4 @@
 - ### Logisim
 	- [Instalace](/kapitoly/logisim-instalace.md)
     - [Základy](/kapitoly/logisim-zaklady.md)
+	- [Třetí stav a zkraty](/kapitoly/stavy.md)
