@@ -7,6 +7,6 @@
     - [Příprava na test](./teorie-priprava-test.md)
 
 - [Logisim]()
-    - [Logisim](./logisim-instalace.md)
+    - [Instalace](./logisim-instalace.md)
     - [Základy](./logisim-zaklady.md)
     - [Třetí stav a zkraty](./stavy.md)
