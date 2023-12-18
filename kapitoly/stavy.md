@@ -19,7 +19,7 @@ Legitimní stavy jsou všechny kromě zkratu. Občas se tedy stane, že i třet�
 
 #### Třetí stav
 
-Třetí stav je nedefinovaná hodnota. Příkladné použití je pomocí `Controlled Buffer`. Tenhle komponent vám buď propustí proud nebo ne.
+Třetí stav je nedefinovaná hodnota. Příkladné použití je pomocí `Controlled Buffer` (Najdeme v `Gates/Controlled Buffer`). Tenhle komponent vám buď propustí proud nebo ne.
 
 #### Příklad
 
