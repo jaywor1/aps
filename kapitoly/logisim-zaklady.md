@@ -12,7 +12,7 @@ Jako první vám doporučuji nahrát template, kde jsou všechny gaty nastavené
 
 Nahrajeme template:
 
-File --> Open --> vyberem `template.circ` soubor, který jsme stáhli.
+File --> Open --> vybereme `template.circ` soubor, který jsme stáhli.
 
 Uložíme zvlášť, abychom nepřepsali náš template:
 
