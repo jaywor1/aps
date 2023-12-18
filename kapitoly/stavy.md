@@ -9,7 +9,7 @@ Váš obvod může mít 4 stavy
 
 <img src="/obrazky/logisim-stavy-1.png" width="512px">
 
-### Legitmní stavy
+### Legitimní stavy
 
 - `0` - Vypnutý stav
 - `1` - Zapnutý stav
@@ -19,11 +19,11 @@ Legitimní stavy jsou všechny kromě zkratu. Občas se tedy stane, že i třet�
 
 #### Třetí stav
 
-Třetí stav je nedefinovaná hodnota. Příkladné použití je pomocí `Controlled Buffer` (Najdeme v `Gates/Controlled Buffer`). Tenhle komponent vám buď propustí proud nebo ne.
+Třetí stav je nedefinovaná hodnota. Příkladné použití je pomocí `Controlled Buffer` (Najdeme v `Gates/Controlled Buffer`). Tenhle komponent vám buď propustí proud, nebo ne.
 
 #### Příklad
 
-Máme následující obvod. Pokud nic nepouštíme máme třetí stav, hodnota není definovaná.
+Máme následující obvod. Pokud nic nepouštíme, máme třetí stav, hodnota není definovaná.
 
 <img src="/obrazky/logisim-stavy-2.png" width="512px">
 
