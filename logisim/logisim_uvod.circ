@@ -89,6 +89,7 @@
     <comp lib="0" loc="(270,140)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
+      <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(220,140)" name="AND Gate">
