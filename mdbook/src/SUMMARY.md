@@ -9,3 +9,4 @@
 - [Logisim]()
     - [Logisim](./logisim-instalace.md)
     - [Základy](./logisim-zaklady.md)
+    - [Třetí stav a zkraty](./stavy.md)
