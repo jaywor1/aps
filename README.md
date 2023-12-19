@@ -16,3 +16,4 @@
 	- [Instalace](/kapitoly/logisim-instalace.md)
     - [Základy](/kapitoly/logisim-zaklady.md)
 	- [Třetí stav a zkraty](/kapitoly/stavy.md)
+	- [Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
