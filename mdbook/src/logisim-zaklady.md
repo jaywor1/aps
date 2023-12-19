@@ -38,7 +38,7 @@ Jsou celkem 4
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/logisim-uvod-2.png"/>
 
-V zeléném obdelníku se vyskytují složky obsahující různé komponenty.
+V zelénem obdelníku se vyskytují složky obsahující různé komponenty.
 
 #### Zadání
 

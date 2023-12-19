@@ -119,7 +119,7 @@ Máme pravdivnostní tabulku se vstupy $A,B,C$ a výstupem $Q$:
   <img src="/obrazky/karnaughova-mapa-3.png" width=512px/>
 </p>
 
-Vidíme, že je blok nezávislý na tom jestli je $A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C$
+Vidíme, že je blok nezávislý na tom, jestli je $A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C$
 
 - $B$ musí být $0$
 - $C$ musí být $0$

@@ -32,13 +32,13 @@ Jsou celkem 4
 - Dráty - tvoření drátů
 - Text - na popsání obvodu
 
-> Kurozry můžeme měnit pomocí zkratky `Ctrl + [1-4]`
+> Kurzory můžeme měnit pomocí zkratky `Ctrl + [1-4]`
 
 ### První obvod
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/logisim-uvod-2.png"/>
 
-V zeléném obdelníku se vyskytují složky obsahující různé komponenty.
+V zelénem obdelníku se vyskytují složky obsahující různé komponenty.
 
 #### Zadání
 

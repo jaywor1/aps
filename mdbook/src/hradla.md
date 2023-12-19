@@ -293,7 +293,7 @@ bool Q = !(A ^ B);
 
 ## Cheat sheet
 
-### Cheat sheat pro logické brány
+### Cheat sheet pro logické brány
 
 *Vstup A a Vstup B dává výstup \<operace\>*
 
