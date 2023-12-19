@@ -10,3 +10,4 @@
     - [Instalace](./logisim-instalace.md)
     - [Základy](./logisim-zaklady.md)
     - [Třetí stav a zkraty](./stavy.md)
+    - [Multiplexory a dekodéry](./multiplexory-dekodery.md)
