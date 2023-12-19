@@ -7,3 +7,6 @@ title = "APS"
 
 [output.html]
 mathjax-support = true
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/jaywor1/aps"
