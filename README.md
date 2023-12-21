@@ -17,3 +17,4 @@
     - [Základy](/kapitoly/logisim-zaklady.md)
 	- [Třetí stav a zkraty](/kapitoly/stavy.md)
 	- [Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
+	- [Komparátor](/kapitoly/komparator.md)
