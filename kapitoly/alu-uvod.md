@@ -55,12 +55,48 @@ Posune nám hodnotu buď doleva `SHL`, nebo doprava `SHR`. Pokud by hodnota utek
 - `SHL` - Shift left
 - `SHR` - Shift right
 
+Příklad `SHL`
+
+| A | OUT | COUT |
+|:-:|:---:|:----:|
+| `0000 0001` | `0000 0010` | `0` |
+| `1000 0000` | `0000 0000` | `1` |
+| `1011 0111` | `0110 1110` | `1` |
+| `0101 1101` | `1011 1010` | `0` |
+
+Příklad `SHR`
+
+| A | OUT | COUT |
+|:-:|:---:|:----:|
+| `0000 0001` | `0000 0000` | `1` |
+| `1000 0000` | `0100 0000` | `0` |
+| `1011 0111` | `0101 1011` | `1` |
+| `0101 1101` | `0010 1110` | `1` |
+
 #### Rotace
 
 Stejné jako shifty, ale při přetečení nastavíme nejmenší hodnotu na `1`. Například máme hodnotu `0000 0001` a použijeme operaci `ROTR`, tak nastavíme `OUT` na `1000 0000` a označíme `COUT` na `1`
 
 - `ROTL` - Rotate left
 - `ROTR` - Rotate right
+
+Příklad `ROTL`
+
+| A | OUT | COUT |
+|:-:|:---:|:----:|
+| `0000 0001` | `0000 0010` | `0` |
+| `1000 0000` | `0000 0001` | `1` |
+| `1011 0111` | `0110 1111` | `1` |
+| `0101 1101` | `1011 1010` | `0` |
+
+Příklad `ROTR`
+
+| A | OUT | COUT |
+|:-:|:---:|:----:|
+| `0000 0001` | `1000 0000` | `1` |
+| `1000 0000` | `0100 0000` | `0` |
+| `1011 0111` | `1101 1011` | `1` |
+| `0101 1101` | `1010 1110` | `1` |
 
 #### Sčítačka
 
