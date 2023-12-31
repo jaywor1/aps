@@ -17,7 +17,7 @@ Každé CPU vyžaduje ALU neboli *Arithmetic Logic Unit*. Jedná se o "krabičku
 - `SIGN` - Znaménko hodnoty výstupu (totožné s nejvyšším bitem hodnoty)
 - `GT`, `LT`, `EQ` - Nepovinně můžeme přidat operace s komparátoru, jde nahradit pomocí odčítání a `ZERO` a `SIGN` výstupy
 
-### Operace
+### Operace ALU (`SEL`)
 
 #### Bitwise operace
 
@@ -56,3 +56,10 @@ Sčítačka by měla být schopna provést více operací, jedná se o následuj
 Bonusově můžete dodělat násobení neboli `MUL`. Zde se výsledek rozděluje na dva výstupy a to horní část `HOUT` a dolní část `OUT`.
 
 - `MUL` - násobení
+
+#### Uživatelské rozhraní
+
+Nejjednoduší uživatelské rozhraní je pomoci registrů (`Memory/Register`), ale pro přehlednost můžete přidat například hex displej (`Input/Output/Hex Digit Display`). Pro 1 bitové hodnoty doporučuji LEDky (`Input/Output/LED`).
+
+Příkladný `main` v projektu ALU může vypadat následovně.
+
