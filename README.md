@@ -18,3 +18,6 @@
 	- [Třetí stav a zkraty](/kapitoly/stavy.md)
 	- [Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
 	- [Komparátor](/kapitoly/komparator.md)
+
+- ### ALU
+	- [Úvod](/kapitoly/alu-uvod.md)
