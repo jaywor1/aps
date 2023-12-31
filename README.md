@@ -21,3 +21,4 @@
 
 - ### ALU
 	- [Úvod](/kapitoly/alu-uvod.md)
+	- [Sčítačka](/kapitoly/alu-scitacka.md)
