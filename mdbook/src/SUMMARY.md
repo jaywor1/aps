@@ -12,3 +12,6 @@
     - [Třetí stav a zkraty](./stavy.md)
     - [Multiplexory a dekodéry](./multiplexory-dekodery.md)
     - [Komparátor](./komparator.md)
+
+- [ALU]()
+    - [Úvod](./alu-uvod.md)
