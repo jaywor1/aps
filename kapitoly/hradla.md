@@ -14,6 +14,10 @@ Obsah:
 	- [XNOR](#xnor)
 - [Cheat sheet](#cheat-sheet)
 
+### Pravdivnostní tabulka
+
+Pro značení budeme používat pravdivnostní tabulku, která označuje nějaký vztah mezi vstupy a výstupy. Jedná se o jednoduchou tabulku, kde se nachází libovolně vstupů, (typicky `A`,`B`,`CIN`,...) a výstupů (typicky `X`,`COUT`,`OUT`,...). S následujících příkladů u hradel, hned pochopíte o co jde.
+
 ## Hradla s jedním vstupem
 
 Hradla, které mají jeden vstup jsou následující
