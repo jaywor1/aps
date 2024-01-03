@@ -180,6 +180,9 @@ $X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
 
 Taktéž v zapojení můžeme použít jeden OR, který příjmá 3 vstupy místo dvou (jelikož sčítání je asociativní a komutativní).
 
+
+Vytváření tabulky si ulehčíme spočítáním sloupců pro námi zvolené podvýrazy ($A \cdot B$,$\overline{A \bigoplus C}$, $\overline{B}$) jejich hodnoty použijeme v dalších výpočtech, abychom se vyhnuli chybám při počítání komplikovaných výrazu z hlavy. Pokud víme na první pohled hodnoty některých řádků výsledku, můžeme je vyplnit hned do výsledku a v pomocných sloupcích je přeskočit. Nutné sloupce jsou pouze vstupy ($A$,$B$,$C$) a výstupy ($X$).
+
 |$A$|$B$|$C$|$A \cdot B$|$\overline{A \bigoplus C} $| $\overline{B}$ | $X$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
