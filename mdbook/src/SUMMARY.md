@@ -15,4 +15,4 @@
 
 - [ALU]()
     - [Úvod](./alu-uvod.md)
-    - [Sčítačka](./alu-scitacka.md)
+    - [Sčítačka/odčítačka](./alu-scitacka.md)
