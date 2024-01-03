@@ -178,6 +178,8 @@ $X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
 <details>
   <summary>Řešení - tabulka</summary>
 
+Taktéž v zapojení můžeme použít jeden OR, který příjmá 3 vstupy místo dvou (jelikož sčítání je asociativní a komutativní).
+
 |$A$|$B$|$C$|$A \cdot B$|$\overline{A \bigoplus C} $| $\overline{B}$ | $X$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
