@@ -2,7 +2,7 @@
 
 ### WIP (Work-in-Progress)
 
-V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomhle repu nebo pište na misa.javor@gmail.com
+V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomhle repu viz. [link](https://github.com/jaywor1/aps/issues/new?assignees=jaywor1&labels=bug&projects=&template=chyba.md&title=%5BBUG%5D+) nebo pište na misa.javor@gmail.com
 
 ### Link na webovou stránku skript: [jaywor1.github.io/aps](http://jaywor1.github.io/aps)
 
