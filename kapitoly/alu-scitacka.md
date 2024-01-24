@@ -34,7 +34,9 @@ Pravdivnostní tabulka pro full-adder vypadá následovně.
 | 1 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 |
 
-Jediné co tedy uděláme je, že přidáme half-adder 2 krát jeden na `A+B` a druhý na výsledek z prvního `X` a `CIN`, neboli `X+CIN`.
+Jediné co tedy uděláme je, že přidáme half-adder 2 krát, jeden na `A+B` a druhý na výsledek z prvního `X` a `CIN`, neboli `X+CIN`.
+
+`COUT` half-adderů by se měli sčítat, ale jelikož nemůže nastat případ, kdy jsou oba dva `COUT` `1`, tak nám stačí `OR`. Taky se nemusíme bát přetečení, jelikož při sčítání 3 bitů se hodnota vždy vejde do 2 bitů (maximální hodnota je 3).
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/alu-full-adder.png">
 
