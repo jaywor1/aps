@@ -17,3 +17,6 @@ https://commons.wikimedia.org/wiki/File:K-map_minterms_A.svg
 
 ### Gify
 https://en.wikipedia.org/wiki/Karnaugh_map#/media/File:Torus_from_rectangle.gif
+
+### Tex
+https://texample.net/tikz/examples/complement/
