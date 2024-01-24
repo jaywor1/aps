@@ -46,7 +46,24 @@ Pro pochopení odčítačky si musíme říct, co jsou to záporná čísla. Zá
 
 #### Dvojkový doplněk (two's complement)
 
-Dvojkový doplněk spočívá ve vyhrazení prvního bitu pro znaménko. `1` znamená `-` a `0` znamená `+` s tím že jsou u negativních čísel znegované bity. Pochopíte z následného příkladu.
+Když pracujeme s n-bitovými čísly, tak pracujeme s tělesem \\(Z_{2^n}^+\\). Chceme vytvořit taková pravidla, že budeme moct pomocí sčítání odčítat.
+
+ - Pro každé kladné \\(b^+\\) musí existovat takové \\(b^-\\), aby platitlo \\(a-b^+ = a + (-b^+) = a + b^-\\).
+ - Taky musí platit \\(b^+ + b^- = 0\\)
+
+Potřebujeme tedy najít aditivní inverzi
+
+\\(b^- = 2^n - b^+ = (2^n - 1) - b^+ + 1\\)
+
+\\((2^n - 1)\\) je řetězec samých jedniček a odečtením od takové hodnoty nikdy nenastane žádný přenos a odečtená hodnota se touto operací jednoduše zneguje. Dostáváme tedy pravidlo pro výpočet opačného čísla a to: \\(b^- = \overline{b^+} + 1\\)
+
+Rozdělíme tak těleso na dvě poloviny na zápornou a nezápornou. Viz. obrázek
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/alu-scitacka-doplnek.png" width="350px">
+</p>
+
+Zkráceně dvojkový doplněk spočívá ve vyhrazení prvního bitu pro znaménko. `1` znamená `-` a `0` znamená `+` s tím že jsou u negativních čísel znegované bity. Pochopíte z následného příkladu.
 
 | Dvojková soustava | Decimální soustava |
 |:---:|:---:|
