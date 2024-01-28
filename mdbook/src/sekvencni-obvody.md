@@ -4,7 +4,7 @@
 
 Kombinační obvody nemají žádné smyčky. Jedná se o obvody jako například vaše sčítačka, komparátor, atd.
 
-Příkald kombinačního obvodu
+Příklad kombinačního obvodu
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/kombinacni-1.png">
 
