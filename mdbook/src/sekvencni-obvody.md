@@ -1,4 +1,4 @@
-# Sekvenční obvody
+# Paměti - Sekvenční obvody
 
 ### Kombinační obvody
 
@@ -12,11 +12,13 @@ Příkald kombinačního obvodu
 
 Sekvenční obvody narozdíl od kombinačních mají cykly. Pomocí těchto cyklů nabírají zajímavé vlastnosti a to paměti.
 
+Příkladný sekvenční obvod s `OR`
+
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/sekvencni-1.png">
 
 #### Znázornění v pravdivnostní tabulce
 
-| A | B | B' |
+| A | X | X' |
 |:-:|:-:|:--:|
 | 0 | B | B |
 | 1 | B | 1 |
@@ -37,9 +39,32 @@ Vidíme, že výstup se rovná vždy `B`, takže do tabulky dosadíme pro `B'` `
 Vidíme, že výstup se rovná vždy `1`, takže do tabulky dosadíme pro `B'` `1`
 
 
-### Využití sekvenčních obvodů pro paměť
+### SR Latch
 
-Sekvenční obvody můžete využít pro paměť pomocí hradla `NAND`.
+Sekvenční obvody můžete využít pro paměť pomocí hradla `OR`. Hradlo `OR` nám vstup zapne a nechá výstup neustále zapnutý, ale nemáme ho **zatím** jak vyresetovat.
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/sekvencni-1.png">
+
+Abychom ho mohli vyresetovat, přidáme další vstup a to `R` jako reset.
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/rookie-sr-latch.png">
+
+Zapíšeme do výrazu
+
+\\(Q = S + B = Q + (Q \cdot \overline{R})\\)
+
+Zapíšeme chování do pravdivnostní tabulky
+
+| R | S | Q | Q' |
+|:-:|:-:|:-:|:--:|
+| 0 | 0 | Q | Q |
+| 0 | 1 | X | 1 |
+| 1 | 0 | X | 0 |
+| 1 | 1 | X | 1 |
+
+Vytvořili jsme SR Latch, který se ale dá optimalizovat, tak abychom potřebovali 2 stejné gaty a to `NOR` viz. gif.
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/sr-latch-gif.gif">
 
 ### Oscillation apparent
 
