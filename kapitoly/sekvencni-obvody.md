@@ -38,6 +38,30 @@ Vidíme, že výstup se rovná vždy `B`, takže do tabulky dosadíme pro `B'` `
 
 Vidíme, že výstup se rovná vždy `1`, takže do tabulky dosadíme pro `B'` `1`
 
+### Latch vs Flip Flop
+
+#### Signály
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/signal-states.png">
+
+Na následujícím obrázku vidíme 4 definice.
+
+- `High Level` (Active-High) - zde probíhá ukládání
+- `Low Level` (Active-Low) - značí se jako `CLK` nebo `ENA`
+- `Rising/Falling edge` hodnota se zpracuje v okamžíku přechodu `CLK` signálu z high na low a opačně
+
+#### Latch
+
+Latch je *level-triggered*. To znamená, že latch bere vstup, když je zapnutý viz. obrázek
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/signal-latch.png">
+
+#### Flip Flop
+
+Flip flop je *edge-triggered*. To znamená, že buď bere vstup na `rising edge` nebo `falling edge`. Na následujícím obrázku bere vstup na `rising edge`.
+
+<img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/signal-flip-flop.png">
+
 
 ### SR Latch
 
@@ -72,3 +96,10 @@ V rámci sekvenčních obvodů můžete narazit na chybu `Oscillation apparent`.
 - Odstraníme problémový prvek
 - `Reset Simulation` (`CTRL+R`)
 - Pokud není zapnuté tak --> `Auto-Propagate` (`CTRL+E`) 
+
+### Bonusové materiály
+
+-  Latch vs Flip Flop -  [https://www.youtube.com/watch?v=LTtuYeSmJ2g](https://www.youtube.com/watch?v=LTtuYeSmJ2g)
+- Latch a Flip Flop na wikipedii
+    - Anglicky (víc informací) - [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
+    - Česky - [https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod](https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod)
