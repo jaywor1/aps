@@ -3,7 +3,7 @@
 Asynchronní obvody fungují bez clocku, takže jakmile je na vstupu hodnota, zpracuje se.
 
 
-#### SR latch
+#### SR (Set-Reset) latch
 
 SR latch jde vytvořit mnoho způsoby, nejčastější jsou `SR NOR latch` a `SR NAND latch`
 
@@ -29,7 +29,7 @@ Pravdivnostní tabulka JK latch
 | 1 | 0 | 1 | Set |
 | 1 | 1 | Q | Toggle |
 
-#### Gated D latch
+#### Gated D (Delay) latch
 
 - Gatování - možnost vypnout či zapnout prvek, pomocí vstupu (typicky `ENABLE`).
 
