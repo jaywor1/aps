@@ -24,3 +24,6 @@ V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomh
 - ### ALU
 	- [Úvod](/kapitoly/alu-uvod.md)
 	- [Sčítačka/odčítačka](/kapitoly/alu-scitacka.md)
+
+- ### Paměti
+	- [Sekvenční obvody](/kapitoly/sekvencni-obvody.md)
