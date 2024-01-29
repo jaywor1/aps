@@ -20,3 +20,4 @@
 - [Paměti]()
     - [Sekvenční obvody](./sekvencni-obvody.md)
     - [Asynchronní obvody](./asynchronni-obvody.md)
+    - [Synchronní obvody](./synchronni-obvody.md)
