@@ -16,6 +16,8 @@ https://en.wikipedia.org/wiki/File:XNOR_ANSI_Labelled.svg
 https://commons.wikimedia.org/wiki/File:K-map_minterms_A.svg
 https://commons.wikimedia.org/wiki/File:SR_Flip-flop_Diagram.svg
 https://commons.wikimedia.org/wiki/File:D-type_Transparent_Latch_(NOR).svg
+https://commons.wikimedia.org/wiki/File:Edge_triggered_D_flip_flop.svg
+https://commons.wikimedia.org/wiki/File:Edge_triggered_D_flip_flop_with_set_and_reset.svg
 
 ### Gify
 https://en.wikipedia.org/wiki/Karnaugh_map#/media/File:Torus_from_rectangle.gif
