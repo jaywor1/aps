@@ -96,3 +96,7 @@ V rámci sekvenčních obvodů můžete narazit na chybu `Oscillation apparent`.
 - Odstraníme problémový prvek
 - `Reset Simulation` (`CTRL+R`)
 - Pokud není zapnuté tak --> `Auto-Propagate` (`CTRL+E`) 
+
+### Bonusové materiály
+
+-  Latch vs Flip Flop -  [https://www.youtube.com/watch?v=LTtuYeSmJ2g](https://www.youtube.com/watch?v=LTtuYeSmJ2g)
