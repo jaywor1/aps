@@ -61,3 +61,8 @@ Při každém clocku se načte bit a uloží se do prvního flip-flopu, každý 
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/1024px-4_Bit_Shift_Register_001.svg.png
 ">
+
+### Bonusové materiály
+
+- Shift register anglická wikipedie - [https://en.wikipedia.org/wiki/Shift_register](https://en.wikipedia.org/wiki/Shift_register)
+- Flip-flopy a latche - [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
