@@ -20,6 +20,7 @@ https://commons.wikimedia.org/wiki/File:Edge_triggered_D_flip_flop.svg
 https://commons.wikimedia.org/wiki/File:Edge_triggered_D_flip_flop_with_set_and_reset.svg
 https://commons.wikimedia.org/wiki/File:Negative-edge_triggered_master_slave_D_flip-flop.svg
 https://commons.wikimedia.org/wiki/File:D-Type_Flip-flop_Diagram.svg
+https://commons.wikimedia.org/wiki/File:4_Bit_Shift_Register_001.svg
 
 ### Gify
 https://en.wikipedia.org/wiki/Karnaugh_map#/media/File:Torus_from_rectangle.gif
