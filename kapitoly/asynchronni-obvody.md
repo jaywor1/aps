@@ -41,6 +41,6 @@ D latch využívá vstup enable jako 2 vstup. Tvořící sérii pravidel.
 | 1 | 0 | 0 | 1 | Reset |
 | 1 | 1 | 1 | 0 | Set |
 
-`SR NOR latch`
+`Gated D latch`
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/D-type_Transparent_Latch_(NOR).svg.png" width="500px">
