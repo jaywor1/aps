@@ -1,8 +1,7 @@
 # Paměti - Asynchronní obvody
 
-Jakmile je na vstupu hodnota, zpracuje se.
+Asynchronní obvody fungují bez clocku, takže jakmile je na vstupu hodnota, zpracuje se.
 
-Gatování - možnost vypnout či zapnout prvek, pomocí vstupu (typicky `ENABLE`).
 
 #### SR latch
 
@@ -31,6 +30,8 @@ Pravdivnostní tabulka JK latch
 | 1 | 1 | Q | Toggle |
 
 #### Gated D latch
+
+- Gatování - možnost vypnout či zapnout prvek, pomocí vstupu (typicky `ENABLE`).
 
 D latch využívá vstup enable jako 2 vstup. Tvořící sérii pravidel.
 
