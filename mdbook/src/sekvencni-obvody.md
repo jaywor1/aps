@@ -98,4 +98,7 @@ V rámci sekvenčních obvodů můžete narazit na chybu `Oscillation apparent`.
 
 ### Bonusové materiály
 
--  Latch vs Flip Flop -  [https://www.youtube.com/watch?v=LTtuYeSmJ2g](https://www.youtube.com/watch?v=LTtuYeSmJ2g)
+-  Latch vs Flip Flop - [https://www.youtube.com/watch?v=LTtuYeSmJ2g](https://www.youtube.com/watch?v=LTtuYeSmJ2g)
+- Latch a Flip Flop na wikipedii
+    - Anglicky (víc informací) - [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
+    - Česky - [https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod](https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod)
