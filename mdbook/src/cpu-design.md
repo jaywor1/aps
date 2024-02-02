@@ -30,17 +30,6 @@ Doporučuji si načrtnout návrh vašeho CPU a podle toho se rozhodovat. Důlež
 - Počet registrů
 - Šířka sběrnice
 
-### Definice instrukcí
-
-Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.x
-
-Typické instrukce jsou:
-- mov - přesune hodnotu registru z R1 do R2
-- movi - přesune hodnotu v instrukci do R1
-- add - sečte R1 R2
-- jmp - skočí na instrukci v programu
-- ...
-
 ### I/O (Vstup/Výstup)
 
 Alespoň jeden vstup a výstup
@@ -67,6 +56,29 @@ Zkráceně by mělo být, co nejvíce univerzální... Tohle je dobré mít v hl
 
 - `{X}` - libovolný registr X
 - `[X]` - hodnota na adrese X
+
+
+Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.x
+
+Typické instrukce jsou:
+- mov {R1} {R2} - přesune hodnotu registru z R1 do R2
+- movi {R1} 8b - přesune hodnotu v instrukci do R1
+- add {R1} {R2} - sečte R1 R2
+- jmp {X} - skočí na instrukci {X} v programu
+- ...
+
+#### Průběh exekuce instrukce
+
+- Fetch
+    - Načti hodnotu z instrukční paměti na adrese PC (Program Counter) do IR (Instruction Register)
+    - Přičti k PC jedna
+
+- Decode instruction
+    - Přečti IR, rozhodni se, zda potřebuješ další bity k instrukci
+    - Pokud ano, opakuj fetch, ale výsledek ulož do argument registrů,...
+
+- Execute instruction
+    - Podle toho, co je v IR, tak se zachovej
 
 #### Vyžadované instrukce
 
