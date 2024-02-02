@@ -102,9 +102,18 @@ Příklady:
 
 **Control Flow**
 
-- Jumpy v programu - rozdělují se na podmíněné a nepodmíněné
-    - `jmp` - skok na 
+Jumpy v programu - rozdělují se na podmíněné a nepodmíněné
+
+Nepodmíněné:
+- `jmp {X}` - jump na určitou instrukci
+- `jmpr {X}` - jump na instrukci o X instrukcí dopředu či dozadu
+
+Podmíněné:
+- `jmpz {X}` - skoč na X instrukci pokud je flaga `ZERO` rovná jedné
+- `jumpr {X}` - to stejné ale relativní jump
+- `jmpc {X}` - skoč na X instrukci pokud je flaga `CARRY` rovná jedné
 
 **Ostatní**
 
 - Typicky I/O
+-  `led` - toogle na LEDku
