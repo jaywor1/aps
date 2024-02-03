@@ -52,6 +52,14 @@ Vaše CPU by mělo mít několik vlastnostní:
 
 Zkráceně by mělo být, co nejvíce univerzální... Tohle je dobré mít v hlavě při návrhu instrukcí.
 
+Instrukci si můžete rozčlenit jakkoliv chcete. U mého CPU jsem měl pouze OP code a ARGy, ale můžete do instrukce schovat různé flagy apod...
+
+  <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/instruction.png">
+
+V excelu pak vypadají instrukce nějak takhle
+
+  <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/excel-instructions.png">
+
 **Doporučené konvence**
 
 - `{X}` - libovolný registr X
