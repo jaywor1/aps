@@ -25,3 +25,4 @@
 - [CPU]()
     - [Návrh](./cpu-design.md)
     - [Stavba](./cpu-build.md)
+    - [Programování](./cpu-programming.md)
