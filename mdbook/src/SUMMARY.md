@@ -24,3 +24,4 @@
 
 - [CPU]()
     - [Návrh](./cpu-design.md)
+    - [Stavba](./cpu-build.md)
