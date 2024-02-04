@@ -32,3 +32,4 @@ V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomh
 
 - ### CPU
 	- [Návrh](/kapitoly/cpu-design.md)
+	- [Stavba](/kapitoly/cpu-build.md)
