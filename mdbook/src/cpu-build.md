@@ -1,11 +1,11 @@
 # CPU - Stavba
 
 Doporučuji si CPU rozdělit na 5 částí:
-- Registry
-- CU (Control Unit)
-- Control room
-- Input/Output
-- Paměť (RAM/ROM)
+- Registry - vnitřní paměti CPU
+- CU (Control Unit) - něco co vaši instrukci přijme a podle toho vykoná kroky
+- Control room - debug část pro čtení obsahů registrů a podobných věcí
+- Input/Output - vstupy,výstupy...
+- Paměť (RAM/ROM) - v harvardské architektuře typicky ROM pro program a RAM pro data, ve Von Neumannově architektuře pouze RAM
 
 ### Hrdinské komponenty pro vaše CPU
 
