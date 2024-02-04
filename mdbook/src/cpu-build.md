@@ -10,7 +10,7 @@ Doporučuji si CPU rozdělit na 5 částí:
 ### Hrdinské komponenty pro vaše CPU
 
 - `Gates/Controlled Buffer` - rozhoduje jestli pouštíte proud nebo ne, v parametrech navolíte pouze vstupní a výstupní `Data Bits`
-- `Wiring/Tunnel` - komponenta pro přehlednost, vytvoříte n komponenty se stejným labelem (`Label`) a bude vám přenášet vstup bez nutných kabelů přes celou plochu
+- `Wiring/Tunnel` - komponenta pro přehlednost, vytvoříte n komponent se stejným labelem (`Label`) a bude vám přenášet vstup bez nutných kabelů přes celou plochu
 - `Wiring/Probe` - debug věc, pro zjištění hodnoty na kabelu...
 - `Memory/Register` - nejpoužívanější paměťová buňka
 
