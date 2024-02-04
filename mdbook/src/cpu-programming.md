@@ -12,7 +12,7 @@ Jelikož má customasm svou vlastní dokumentaci, tak tuhle část projdu velmi 
 
 ### Subruledef
 
-První si nadefinujeme podpravidla jako například registry apod.
+První si nadefinujeme podpravidla (typy) jako například registry apod.
 
 ```
 #subruledef register
@@ -26,7 +26,7 @@ První si nadefinujeme podpravidla jako například registry apod.
 
 ### Ruledef (instrukce)
 
-Zde nadefinujeme instrukce, viz. příkladná `mov` instrukce. Dejme tomu, že opcode pro mov instrukci je `1001` a šířka instrukcí je 16 bitů.
+Zde nadefinujeme instrukce, viz. příkladná `mv` instrukce. Dejme tomu, že opcode pro mov instrukci je `1001` a šířka instrukcí je 16 bitů.
 
 ```
 #ruledef
@@ -44,7 +44,7 @@ Zde nadefinujeme instrukce, viz. příkladná `mov` instrukce. Dejme tomu, že o
 - `@` - používá se jako separátor
 - `` src`4 `` - argument src zakóduj jako 4 bitový
 - `` dst`4 `` - stejné
-- `0x0` - `0x` hexdecimální zápis čísla `0`, pro doplnění do 16 bitů (naší šířce instrukce)
+- `0x0` - `0x` hexdecimální zápis čísla `0`, pro doplnění do 16 bitů (naše šířka instrukce)
 
 Dobré podoktnout, že jako typ zde používám pouze register, ale velmi často použijete i další typy a to:
 - `uXX` - unsigned hodnoty
