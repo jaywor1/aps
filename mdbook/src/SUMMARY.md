@@ -21,3 +21,8 @@
     - [Sekvenční obvody](./sekvencni-obvody.md)
     - [Asynchronní obvody](./asynchronni-obvody.md)
     - [Synchronní obvody](./synchronni-obvody.md)
+
+- [CPU]()
+    - [Návrh](./cpu-design.md)
+    - [Stavba](./cpu-build.md)
+    - [Programování](./cpu-programming.md)

@@ -29,3 +29,8 @@ V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomh
 	- [Sekvenční obvody](/kapitoly/sekvencni-obvody.md)
 	- [Asynchronní obvody](/kapitoly/asynchronni-obvody.md)
     - [Synchronní obvody](/kapitoly/synchronni-obvody.md)
+
+- ### CPU
+	- [Návrh](/kapitoly/cpu-design.md)
+	- [Stavba](/kapitoly/cpu-build.md)
+	- [Programování](/kapitoly/cpu-programming.md)

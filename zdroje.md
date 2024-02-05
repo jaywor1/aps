@@ -23,6 +23,7 @@ https://commons.wikimedia.org/wiki/File:D-Type_Flip-flop_Diagram.svg
 https://commons.wikimedia.org/wiki/File:4_Bit_Shift_Register_001.svg
 https://commons.wikimedia.org/wiki/File:Harvard_architecture.svg
 https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg
+https://commons.wikimedia.org/wiki/File:ABasicComputer.svg
 
 ### Gify
 https://en.wikipedia.org/wiki/Karnaugh_map#/media/File:Torus_from_rectangle.gif
