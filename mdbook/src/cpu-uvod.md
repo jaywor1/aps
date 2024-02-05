@@ -1,9 +1,5 @@
 # CPU - Úvod
 
-### Historie
-
-V prahistorických dobách, co CPU ještě neexistovali, tak se dělali takzvané *ad hoc* řešení. 
-
 CPU neboli **C**entral **P**rocessing **U**nit je užitečný pro jakýkoliv logický problém. Zvládne využívat *tupé* jednotky vašeho počítače a říká jim co mají dělat...
 
 
