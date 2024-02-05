@@ -23,6 +23,7 @@
     - [Synchronní obvody](./synchronni-obvody.md)
 
 - [CPU]()
+    - [Úvod](./cpu-uvod.md)
     - [Návrh](./cpu-design.md)
     - [Stavba](./cpu-build.md)
     - [Programování](./cpu-programming.md)
