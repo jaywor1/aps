@@ -25,6 +25,6 @@ Sběrnice typicky přenáší informace mezi komponenty ve vašem CPU. Nejlíp s
 Typicky během instrukce pošlete nějakou hodnotu na sběrnici. Takže například chcete přesunout hodnotu registru B do registru C, tak vyšlete hodnotu registru B na sběrnici (enable) a nastavíte hodnotu registru C na hodnotu sběrnice (set).
 
 Typy:
-- adresová
-- datová
-- řídící
+- adresová/address - typicky pro adresy v paměti
+- datová/data - pro výsílaná data
+- řídící/control - kominukaci mezi komponenty
