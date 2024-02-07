@@ -15,8 +15,8 @@ CPU se typicky skláda z:
 - Control Unit (CU) - rozřazuje instrukce
 - Registry - často velmi rychlé paměti CPU
 - Kombinační logika - obecné kombinační obvody, zde patří například vaše ALU
-- Main Memory - Typicky RAM nebo ROM
-- Input/Output - Vstupy výstupy vašeho CPU
+- Main Memory - typicky RAM nebo ROM
+- Input/Output - vstupy výstupy vašeho CPU
 
 ### Sběrnice (bus)
 
