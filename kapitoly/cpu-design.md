@@ -66,7 +66,7 @@ V excelu pak vypadají instrukce nějak takhle
 - `[X]` - hodnota na adrese X
 
 
-Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.x
+Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.
 
 Typické instrukce jsou:
 - mov {R1} {R2} - přesune hodnotu registru z R1 do R2
