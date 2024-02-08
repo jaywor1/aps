@@ -105,7 +105,7 @@ Příklady:
 - Immediate data instrukce - instrukce, která vám dovolí nahrát libovolné číslo do registru
     - `movi {R1} {8b number}` - nahraje do libovolného registru R1 8 bitové číslo
 - Práce s RAM - primárně načítání a ukládání z RAM
-    - `load {R1}` - načtení hodnoty z adresy HL do libovolného registru R1
+    - `load {R1}` - načtení hodnoty z adresy HL (dva fixní registry pro adresu RAMky) do libovolného registru R1
     - `store {R1}` - uložení hodnoty z libovolného registru R1 do adresy HL 
 
 **Control Flow**
