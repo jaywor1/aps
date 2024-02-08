@@ -52,7 +52,7 @@ Vaše CPU by mělo mít několik vlastnostní:
 
 Zkráceně by mělo být, co nejvíce univerzální... Tohle je dobré mít v hlavě při návrhu instrukcí.
 
-Instrukci si můžete rozčlenit jakkoliv chcete. U mého CPU jsem měl pouze OP code a ARGy, ale můžete do instrukce schovat různé flagy apod...
+Instrukci si můžete rozčlenit jakkoliv chcete. U mého CPU jsem měl pouze OP code a ARGy, ale můžete do instrukce schovat různé flagy apod... (technicky vzato jsou to taky argumenty, ale pouze jednobitové :D)
 
   <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/instruction.png">
 
