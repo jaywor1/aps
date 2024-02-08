@@ -44,7 +44,7 @@ Příkladné výstupy
 - TTY (`Input/Output/TTY`)
 - LED Matrix (`Input/Output/LED Matrix`)
 
-### Instrukce
+## Instrukce
 
 Vaše CPU by mělo mít několik vlastnostní:
 - možnost spočítat libovolný početní problém
@@ -75,7 +75,7 @@ Typické instrukce jsou:
 - jmp {X} - skočí na instrukci {X} v programu
 - ...
 
-#### Průběh exekuce instrukce
+### Průběh exekuce instrukce
 
 - Fetch
     - Načti hodnotu z instrukční paměti na adrese PC (Program Counter) do IR (Instruction Register)
@@ -88,7 +88,7 @@ Typické instrukce jsou:
 - Execute instruction
     - Podle toho, co je v IR, tak se zachovej
 
-#### Vyžadované instrukce
+### Vyžadované instrukce
 
 **Aritmetické**
 
