@@ -20,7 +20,7 @@ Průvodce návrhem CPU.
 
 Doporučuji si načrtnout návrh vašeho CPU a podle toho se rozhodovat. Důležitý bod u vašeho návrhu CPU je kolika bitové jste dělali ALU. Pokud máte 8 bitové ALU, tak nemůžete mít 16 bitovou sběrnici (pokud něco nevyčarujete, možné je všechno...).
 
-### Navrhované vlastnosti
+### Navrhované šířky/počty
 
 - Šířka adress v ROM
 - Šířka hodnot v ROM
