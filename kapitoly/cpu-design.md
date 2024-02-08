@@ -20,7 +20,7 @@ Průvodce návrhem CPU.
 
 Doporučuji si načrtnout návrh vašeho CPU a podle toho se rozhodovat. Důležitý bod u vašeho návrhu CPU je kolika bitové jste dělali ALU. Pokud máte 8 bitové ALU, tak nemůžete mít 16 bitovou sběrnici (pokud něco nevyčarujete, možné je všechno...).
 
-### Navrhované vlastnosti
+### Navrhované šířky/počty
 
 - Šířka adress v ROM
 - Šířka hodnot v ROM
@@ -44,7 +44,7 @@ Příkladné výstupy
 - TTY (`Input/Output/TTY`)
 - LED Matrix (`Input/Output/LED Matrix`)
 
-### Instrukce
+## Instrukce
 
 Vaše CPU by mělo mít několik vlastnostní:
 - možnost spočítat libovolný početní problém
@@ -52,7 +52,7 @@ Vaše CPU by mělo mít několik vlastnostní:
 
 Zkráceně by mělo být, co nejvíce univerzální... Tohle je dobré mít v hlavě při návrhu instrukcí.
 
-Instrukci si můžete rozčlenit jakkoliv chcete. U mého CPU jsem měl pouze OP code a ARGy, ale můžete do instrukce schovat různé flagy apod...
+Instrukci si můžete rozčlenit jakkoliv chcete. U mého CPU jsem měl pouze OP code a ARGy, ale můžete do instrukce schovat různé flagy apod... (technicky vzato jsou to taky argumenty, ale pouze jednobitové :D)
 
   <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/instruction.png">
 
@@ -66,7 +66,7 @@ V excelu pak vypadají instrukce nějak takhle
 - `[X]` - hodnota na adrese X
 
 
-Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.x
+Doporučuji navrhnout v excelu nebo google sheets. Tabulka s jménem instrukce, krátky popis a její kód.
 
 Typické instrukce jsou:
 - mov {R1} {R2} - přesune hodnotu registru z R1 do R2
@@ -75,7 +75,7 @@ Typické instrukce jsou:
 - jmp {X} - skočí na instrukci {X} v programu
 - ...
 
-#### Průběh exekuce instrukce
+### Průběh exekuce instrukce
 
 - Fetch
     - Načti hodnotu z instrukční paměti na adrese PC (Program Counter) do IR (Instruction Register)
@@ -88,7 +88,7 @@ Typické instrukce jsou:
 - Execute instruction
     - Podle toho, co je v IR, tak se zachovej
 
-#### Vyžadované instrukce
+### Vyžadované instrukce
 
 **Aritmetické**
 
@@ -105,7 +105,7 @@ Příklady:
 - Immediate data instrukce - instrukce, která vám dovolí nahrát libovolné číslo do registru
     - `movi {R1} {8b number}` - nahraje do libovolného registru R1 8 bitové číslo
 - Práce s RAM - primárně načítání a ukládání z RAM
-    - `load {R1}` - načtení hodnoty z adresy HL do libovolného registru R1
+    - `load {R1}` - načtení hodnoty z adresy HL (dva fixní registry pro adresu RAMky) do libovolného registru R1
     - `store {R1}` - uložení hodnoty z libovolného registru R1 do adresy HL 
 
 **Control Flow**

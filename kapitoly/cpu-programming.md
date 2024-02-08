@@ -82,3 +82,12 @@ start:
     mv C,D
 
 ```
+
+### Export do logisimu
+
+- `Output Format: LogiSim 8-bit` nebo `Output Format: LogiSim 16-bit` podle šířky paměti
+- `Assemble (Ctrl+Enter) >>`
+- Zkopírujte výstup a uložte do `.txt` souboru
+- Klikněte na vaši `Memory/ROM` komponentu v logisimu
+- Klikněte u vlastnosti `Contents` na `(click to edit)`
+- `Open` a vyberte soubor, kde jste si uložili výstup customasm
