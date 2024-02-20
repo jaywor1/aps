@@ -46,7 +46,7 @@ Zde nadefinujeme instrukce, viz. příkladná `mv` instrukce. Dejme tomu, že op
 - `` dst`4 `` - stejné
 - `0x0` - `0x` hexdecimální zápis čísla `0`, pro doplnění do 16 bitů (naše šířka instrukce)
 
-Dobré podoktnout, že jako typ zde používám pouze register, ale velmi často použijete i další typy a to:
+Dobré podotknout, že jako typ zde používám pouze register, ale velmi často použijete i další typy a to:
 - `uXX` - unsigned hodnoty
 - `sXX` - signed hodnoty
 - `iXX` - signed nebo unsigned hodnoty
