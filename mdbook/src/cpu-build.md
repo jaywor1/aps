@@ -44,7 +44,7 @@ Ovládání pro register A:
 
 ### Program Counter (PC)
 
-Program counter je komponenta CPU, která vám říká na jakém řádku programu (instrukce) se nacházíte. Potřebujete pro něj 2 věci:
+Program counter je komponenta CPU, která vám říká, na jakém řádku programu (instrukce) se nacházíte. Potřebujete pro něj 2 věci:
 - zvětšit o 1
 - změnit hodnotu pro `jmp`
 
