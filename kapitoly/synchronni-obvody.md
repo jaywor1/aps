@@ -22,7 +22,7 @@ U falling edge detektoru jen prohodíme `NAND` gatu za `AND` gatu.
 
 #### D (Data) Flip Flop
 
-Pravdivnostní tabulka
+Pravdivostní tabulka
 
 | Clock | D | $Q_{next}$ |
 |:-----:|:-:|:----------:|
@@ -30,7 +30,7 @@ Pravdivnostní tabulka
 | `Rising edge` | 1 | 1 |
 | `Non-rising` | X | Q |
 
-D flip-flop jde vytvořit spustu způsoby. Ukážeme si dva a to klasickou variantu a master-slave variantu.
+D flip-flop jde vytvořit mnoha způsoby. Ukážeme si dva, a to klasickou variantu a master-slave variantu.
 
 **Klasická varianta**
 

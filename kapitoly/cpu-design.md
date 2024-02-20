@@ -46,7 +46,7 @@ Příkladné výstupy
 
 ## Instrukce
 
-Vaše CPU by mělo mít několik vlastnostní:
+Vaše CPU by mělo mít několik vlastností:
 - možnost spočítat libovolný početní problém
 - libovolně pracovat s registry a pamětí
 
@@ -101,7 +101,7 @@ Příklady:
 
 **Paměťové**
 
-- Přesuny mezi registry (kromě intérních jako např. program counter)
+- Přesuny mezi registry (kromě interních jako např. program counter)
 - Immediate data instrukce - instrukce, která vám dovolí nahrát libovolné číslo do registru
     - `movi {R1} {8b number}` - nahraje do libovolného registru R1 8 bitové číslo
 - Práce s RAM - primárně načítání a ukládání z RAM

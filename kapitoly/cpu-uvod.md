@@ -11,7 +11,7 @@ Legenda k obrázku:
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/ABasicComputer.svg.png" width="600px">
 </p>
 
-CPU se typicky skláda z:
+CPU se typicky skládá z:
 - Control Unit (CU) - rozřazuje instrukce
 - Registry - často velmi rychlé paměti CPU
 - Kombinační logika - obecné kombinační obvody, zde patří například vaše ALU
@@ -26,5 +26,5 @@ Typicky během instrukce pošlete nějakou hodnotu na sběrnici. Takže napřík
 
 Typy:
 - adresová/address - typicky pro adresy v paměti
-- datová/data - pro výsílaná data
+- datová/data - pro vysílaná data
 - řídící/control - kominukaci mezi komponenty
