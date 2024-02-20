@@ -19,7 +19,7 @@ Můžeme si chování multiplexoru shrnout do tabulky
 
 ### Demultiplexor
 
-Demultiplexor se chová obráceně zhlediska vstupů. Má jeden vstup a $2^n$ výstupů.
+Demultiplexor se chová obráceně z hlediska vstupů. Má jeden vstup a $2^n$ výstupů.
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/dmx.gif">
 
