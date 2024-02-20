@@ -21,7 +21,7 @@ Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
 
 ### Karnaughova mapa - příklad 1
 
-Máme pravdivnostní tabulku se vstupy \\(A,B,C,D\\) a výstupem \\(Q\\):
+Máme pravdivostní tabulku se vstupy \\(A,B,C,D\\) a výstupem \\(Q\\):
 
 | A | B | C | D | Q | index bitu |
 |:-:|:-:|:-:|:-:|:-:|:----------:|
@@ -42,7 +42,7 @@ Máme pravdivnostní tabulku se vstupy \\(A,B,C,D\\) a výstupem \\(Q\\):
 | 1 | 1 | 1 | 0 | 0 | 14 |
 | 1 | 1 | 1 | 1 | 0 | 15 |
 
-1. Vytvoříme tabulku pomocí indexů v pravdivnostní tabulce (odvíjí se od Grayova kódu). Neboli doplníme do obrázku
+1. Vytvoříme tabulku pomocí indexů v pravdivostní tabulce (odvíjí se od Grayova kódu). Neboli doplníme do obrázku
 
 <p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/K-map_minterms_A.svg.png?raw=true" width="648px"></p>
 
@@ -73,7 +73,7 @@ Musíme zakroužkovat všechny \\(1\\), kroužkujeme buď samostatnou \\(1\\) ne
 
 ### Karnaughova mapa - příklad 2
 
-Máme pravdivnostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
+Máme pravdivostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
 
 | A | B | C | Q |
 |:-:|:-:|:-:|:-:|
@@ -145,7 +145,7 @@ Výsledné výrazy sečteme
   <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-logisim.png?raw=true" width=648px/>
 </p>
 
-6. Zkontrolujeme pravdivnostní tabulku.
+6. Zkontrolujeme pravdivostní tabulku.
 	1. Klikneme pravým tlačítkem na circuit v nabídce (základní je main)
 	2. Klikneme na tlačítko **Build Circuit**
 	3. Potvrdíme tlačítkem **OK**, popřípadě **Yes**

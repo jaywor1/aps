@@ -16,7 +16,7 @@ Příkladný sekvenční obvod s `OR`
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/sekvencni-1.png">
 
-#### Znázornění v pravdivnostní tabulce
+#### Znázornění v pravdivostní tabulce
 
 | A | X | X' |
 |:-:|:-:|:--:|
@@ -76,7 +76,7 @@ Zapíšeme do výrazu
 
 \\(Q = S + B = Q + (Q \cdot \overline{R})\\)
 
-Zapíšeme chování do pravdivnostní tabulky
+Zapíšeme chování do pravdivostní tabulky
 
 | R | S | Q | Q' |
 |:-:|:-:|:-:|:--:|

@@ -77,7 +77,7 @@ d) AND
 
 </details>
 
-#### 2. Pojmenuj následující hradla, zapiš jejich **výraz** a **pravdivnostní tabulku**
+#### 2. Pojmenuj následující hradla, zapiš jejich **výraz** a **pravdivostní tabulku**
 
 a) <img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NOR_ANSI_Labelled.svg.png?raw=true" width="192px"/>
 
@@ -166,7 +166,7 @@ c) \\(\overline{(B+C) \bigoplus D}\\)
 </details>
 
 
-#### 4. Nakresli zapojení pro následující výraz a nakresli pravdivnostní tabulku
+#### 4. Nakresli zapojení pro následující výraz a nakresli pravdivostní tabulku
 
 \\(X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}\\)
 

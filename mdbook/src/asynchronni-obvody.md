@@ -19,7 +19,7 @@ Obrázek `SR NAND latch`
 
 JK latch se primárně používá na toggle.
 
-Pravdivnostní tabulka JK latch
+Pravdivostní tabulka JK latch
 
 | J | K | Q' | Poznámka |
 |:-:|:-:|:--:|:-------:|

@@ -22,7 +22,7 @@ U falling edge detektoru jen prohodíme `NAND` gatu za `AND` gatu.
 
 #### D (Data) Flip Flop
 
-Pravdivnostní tabulka
+Pravdivostní tabulka
 
 | Clock | D | \\(Q_{next}\\) |
 |:-----:|:-:|:----------:|
