@@ -15,7 +15,7 @@ Každé CPU vyžaduje ALU neboli *Arithmetic Logic Unit*. Jedná se o "krabičku
 - `ZERO` - 1 bitová hodnota, rozhoduje jestli jsou na výstupu samé nuly
 - `COUT` - Carry OUT z operací, 1 bitová hodnota
 - `SIGN` - Znaménko hodnoty výstupu (totožné s nejvyšším bitem hodnoty)
-- `GT`, `LT`, `EQ` - Nepovinně můžeme přidat operace s komparátoru, jde nahradit pomocí odčítání a `ZERO` a `SIGN` výstupy
+- `GT`, `LT`, `EQ` - Nepovinně můžeme přidat operace z komparátoru, jde nahradit pomocí odčítání a `ZERO` a `SIGN` výstupy
 
 ### UI (uživatelské rozhraní)
 
