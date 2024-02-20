@@ -46,7 +46,7 @@ Příkladné výstupy
 
 ## Instrukce
 
-Vaše CPU by mělo mít několik vlastnostní:
+Vaše CPU by mělo mít několik vlastností:
 - možnost spočítat libovolný početní problém
 - libovolně pracovat s registry a pamětí
 
