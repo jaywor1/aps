@@ -124,4 +124,4 @@ Podmíněné:
 **Ostatní**
 
 - Typicky I/O
--  `led` - toogle na LEDku
+-  `led` - toggle na LEDku
