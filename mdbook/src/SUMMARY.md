@@ -27,3 +27,7 @@
     - [Návrh](./cpu-design.md)
     - [Stavba](./cpu-build.md)
     - [Programování](./cpu-programming.md)
+
+- [Ostatní]()
+    - [Poděkování](./contributors.md)
+    - [Zdroje](./zdroje.md)
