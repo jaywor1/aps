@@ -35,3 +35,7 @@ V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomh
 	- [Návrh](/kapitoly/cpu-design.md)
 	- [Stavba](/kapitoly/cpu-build.md)
 	- [Programování](/kapitoly/cpu-programming.md)
+
+- ### Ostatní
+    - [Poděkování](/kapitoly/contributors.md)
+    - [Zdroje](/kapitoly/zdroje.md)
