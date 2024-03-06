@@ -310,6 +310,8 @@ bool Q = !(A ^ B);
 
 <img src="/obrazky/hradla.png" width="512px"/>
 
+---
+
 [Další kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
 
 [Předchozí kapitola - Booleova algebra](/kapitoly/booleova-algebra.md)
