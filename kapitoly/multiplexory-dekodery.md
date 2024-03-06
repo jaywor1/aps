@@ -1,4 +1,4 @@
-# Multiplexory a dekodéry
+# Logisim - Multiplexory a dekodéry
 
 ### Multiplexor
 

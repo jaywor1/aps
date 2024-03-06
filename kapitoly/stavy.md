@@ -1,4 +1,4 @@
-# Třetí stav a zkraty
+# Logisim - Třetí stav a zkraty
 
 Váš obvod může mít 4 stavy
 

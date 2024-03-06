@@ -1,4 +1,4 @@
-# Komparátor
+# ALU - Komparátor
 
 ### Cvičení
 
