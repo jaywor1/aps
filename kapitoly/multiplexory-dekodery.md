@@ -1,4 +1,4 @@
-# Multiplexory a dekodéry
+# Logisim - Multiplexory a dekodéry
 
 ### Multiplexor
 
@@ -50,3 +50,9 @@ Vytvořte si vlastní dekodér, který bude mít 2 bitový `SEL` vstup.
 </details>
 
 ---
+
+[Další kapitola - Komparátor](/kapitoly/komparator.md)
+
+[Předchozí kapitola - Třetí stav a zkraty](/kapitoly/stavy.md)
+
+[Hlavní menu](/README.md)

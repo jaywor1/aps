@@ -1,4 +1,4 @@
-:# CPU - Programování
+# CPU - Programování
 
 Velmi zkrácená dokumentace pro customasm...
 
@@ -91,3 +91,9 @@ start:
 - Klikněte na vaši `Memory/ROM` komponentu v logisimu
 - Klikněte u vlastnosti `Contents` na `(click to edit)`
 - `Open` a vyberte soubor, kde jste si uložili výstup customasm
+
+---
+
+[Předchozí kapitola - Stavba](/kapitoly/cpu-build.md)
+
+[Hlavní menu](/README.md)

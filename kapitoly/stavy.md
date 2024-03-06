@@ -1,4 +1,4 @@
-# Třetí stav a zkraty
+# Logisim - Třetí stav a zkraty
 
 Váš obvod může mít 4 stavy
 
@@ -36,3 +36,11 @@ Pokud pustíme vstup A, tak dostaneme 0, pokud pustíme vstup B, tak dostaneme 1
 A pokud pustíme oba vstupy na jednou, dostaneme zkrat, jelikož se hodnoty liší.
 
 <img src="/obrazky/logisim-stavy-5.png" width="512px">
+
+---
+
+[Další kapitola - Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
+
+[Předchozí kapitola - Základy](/kapitoly/logisim-zaklady.md)
+
+[Hlavní menu](/README.md)

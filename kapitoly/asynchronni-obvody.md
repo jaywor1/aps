@@ -44,3 +44,11 @@ D latch využívá vstup enable jako 2 vstup. Tvořící sérii pravidel.
 `Gated D latch`
 
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/D-type_Transparent_Latch_(NOR).svg.png" width="500px">
+
+---
+
+[Další kapitola - Synchronní obvody](/kapitoly/synchronni-obvody.md)
+
+[Předchozí kapitola - Sekvenční obvody](/kapitoly/sekvencni-obvody.md)
+
+[Hlavní menu](/README.md)

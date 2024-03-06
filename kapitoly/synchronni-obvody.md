@@ -66,3 +66,12 @@ Při každém clocku se načte bit a uloží se do prvního flip-flopu, každý 
 
 - Shift register anglická wikipedie - [https://en.wikipedia.org/wiki/Shift_register](https://en.wikipedia.org/wiki/Shift_register)
 - Flip-flopy a latche - [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
+
+
+---
+
+[Další kapitola - CPU úvod](/kapitoly/cpu-uvod.md)
+
+[Předchozí kapitola - Asynchronní obvody](/kapitoly/asynchronni-obvody.md)
+
+[Hlavní menu](/README.md)
