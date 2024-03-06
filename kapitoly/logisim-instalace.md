@@ -1,4 +1,4 @@
-# Logisim - Instalace Logisimu
+# Logisim - Instalace
 
 Obecně stáhneme z oficiálního git repa v releases https://github.com/logisim-evolution/logisim-evolution/releases
 
