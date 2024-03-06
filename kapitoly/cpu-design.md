@@ -125,3 +125,12 @@ Podmíněné:
 
 - Typicky I/O
 -  `led` - toggle na LEDku
+
+
+---
+
+[Další kapitola - Úvod](/kapitoly/cpu-uvod.md)
+
+[Předchozí kapitola - Stavba](/kapitoly/cpu-build.md)
+
+[Hlavní menu](/README.md)
