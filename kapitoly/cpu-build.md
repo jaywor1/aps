@@ -57,8 +57,8 @@ Na obrázku jsou piny na ovládání, to je jen pro testování.
 
 ---
 
-[Další kapitola - Návrh](/kapitoly/cpu-design.md)
+[Další kapitola - Programování](/kapitoly/cpu-programming.md)
 
-[Předchozí kapitola - Programování](/kapitoly/cpu-programming.md)
+[Předchozí kapitola - Návrh](/kapitoly/cpu-design.md)
 
 [Hlavní menu](/README.md)
