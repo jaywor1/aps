@@ -53,6 +53,6 @@ Vytvořte si vlastní dekodér, který bude mít 2 bitový `SEL` vstup.
 
 [Další kapitola - Komparátor](/kapitoly/komparator.md)
 
-[Předchozí kapitola - Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
+[Předchozí kapitola - Třetí stav a zkraty](/kapitoly/stavy.md)
 
 [Hlavní menu](/README.md)
