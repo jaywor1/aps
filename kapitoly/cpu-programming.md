@@ -1,4 +1,4 @@
-:# CPU - Programování
+# CPU - Programování
 
 Velmi zkrácená dokumentace pro customasm...
 
