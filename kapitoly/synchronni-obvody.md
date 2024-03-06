@@ -70,8 +70,8 @@ Při každém clocku se načte bit a uloží se do prvního flip-flopu, každý 
 
 ---
 
-[Další kapitola - Asynchronní obvody](/kapitoly/asynchronni-obvody.md)
+[Další kapitola - CPU úvod](/kapitoly/cpu-uvod.md)
 
-[Předchozí kapitola - CPU úvod](/kapitoly/cpu-uvod.md)
+[Předchozí kapitola - Asynchronní obvody](/kapitoly/asynchronni-obvody.md)
 
-[Hlavní menu](/README.md)
+[Hlavní menu](/README.md)Hlavní menu
