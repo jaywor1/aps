@@ -1,4 +1,4 @@
-# Booleova algebra
+# Teorie - Booleova algebra
 
 Booleova algebra je algebraická struktura se dvěma binárními a jednou unární operací.
 
@@ -50,6 +50,6 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 
 ----
 
-[Další kapitola - Hradla](/kapitoly/hradla.md)
+[Další kapitola - Logická hradla](/kapitoly/hradla.md)
 
 [Hlavní menu](/README.md)
