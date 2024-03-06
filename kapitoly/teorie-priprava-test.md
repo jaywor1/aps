@@ -237,3 +237,9 @@ $X = A \cdot A + A \cdot C + C$
 $X = A +C$
 
 </details>
+
+[Další kapitola - Logisim Instalace](/kapitoly/logisim-zaklady.md)
+
+[Předchozí kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
+
+[Hlavní menu](/README.md)
