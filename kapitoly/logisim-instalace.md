@@ -22,3 +22,10 @@ yay -S logisim-evolution
 Všechny gaty jsou nastaveny na `narrow`
 
 ![Download - template](/logisim/template.circ)
+
+
+[Další kapitola - Základy](/kapitoly/logisim-zaklady.md)
+
+[Předchozí kapitola - Teorie příprava na test](/kapitoly/karnaughova-mapa.md)
+
+[Hlavní menu](/README.md)
