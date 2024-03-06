@@ -32,8 +32,8 @@ Typy:
 
 ---
 
-[Předchozí kapitola - Paměti synchronní obvody](/kapitoly/synchronni-obvody.md)
-
 [Další kapitola - Návrh](/kapitoly/cpu-design.md)
+
+[Předchozí kapitola - Paměti synchronní obvody](/kapitoly/synchronni-obvody.md)
 
 [Hlavní menu](/README.md)
