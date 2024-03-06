@@ -103,3 +103,12 @@ V rámci sekvenčních obvodů můžete narazit na chybu `Oscillation apparent`.
 - Latch a Flip Flop na wikipedii
     - Anglicky (víc informací) - [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
     - Česky - [https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod](https://cs.wikipedia.org/wiki/Bistabiln%C3%AD_klopn%C3%BD_obvod)
+
+
+---
+
+[Další kapitola - Asynchronní obvody](/kapitoly/asynchronni-obvody.md)
+
+[Předchozí kapitola - ALU sčítačka/odčítačka](/kapitoly/alu-scitacka.md)
+
+[Hlavní menu](/README.md)

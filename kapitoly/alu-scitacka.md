@@ -79,3 +79,11 @@ Zkráceně dvojkový doplněk spočívá ve vyhrazení prvního bitu pro znamén
 Jeho hlavní výhoda spočívá v odčítání, jelikož pomocí tohoto znázornění platí následující: \\(A-B = A + \overline{B} + 1\\)
 
 Tuto funkcionalitu tedy neimplementujeme nějak zvlášť, ale pomocí sčítačky, kde nastavíme `CIN` na `1` a znegujeme vstup `B`.
+
+---
+
+[Další kapitola - Paměti sekvenční obvody](/kapitoly/sekvencni-obvody.md)
+
+[Předchozí kapitola - Úvod](/kapitoly/alu-uvod.md)
+
+[Hlavní menu](/README.md)
