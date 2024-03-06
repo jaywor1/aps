@@ -28,3 +28,12 @@ Typy:
 - adresová/address - typicky pro adresy v paměti
 - datová/data - pro vysílaná data
 - řídící/control - kominukaci mezi komponenty
+
+
+---
+
+[Další kapitola - Paměti synchronní obvody](/kapitoly/synchronni-obvody.md)
+
+[Předchozí kapitola - Návrh](/kapitoly/cpu-design.md)
+
+[Hlavní menu](/README.md)
