@@ -1,4 +1,4 @@
-# Karnaughova mapa
+# Teorie - Karnaughova mapa
 
 Karnaughova mapa je prostředek pro minimalizaci logických obvodů. Pro pochopení Karnaughovy mapy musíme první pochopit Grayův kód.
 
@@ -172,4 +172,8 @@ $$Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})
 </p>
 
 
-[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
+[Další kapitola - Příprava na test](/kapitoly/teorie-priprava-test.md)
+
+[Předchozí kapitola - Logická hradla](/kapitoly/hradla.md)
+
+[Hlavní menu](/README.md)
