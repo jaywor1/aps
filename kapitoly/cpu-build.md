@@ -53,3 +53,12 @@ Na obrázku jsou piny na ovládání, to je jen pro testování.
 <p align="center">
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/pc-register.png">
 </p>
+
+
+---
+
+[Další kapitola - Návrh](/kapitoly/cpu-design.md)
+
+[Předchozí kapitola - Programování](/kapitoly/cpu-programming.md)
+
+[Hlavní menu](/README.md)
