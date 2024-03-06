@@ -129,8 +129,8 @@ Podmíněné:
 
 ---
 
-[Další kapitola - Úvod](/kapitoly/cpu-uvod.md)
+[Další kapitola - Stavba](/kapitoly/cpu-build.md)
 
-[Předchozí kapitola - Stavba](/kapitoly/cpu-build.md)
+[Předchozí kapitola - Úvod](/kapitoly/cpu-uvod.md)
 
 [Hlavní menu](/README.md)
