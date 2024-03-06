@@ -104,6 +104,8 @@ Nejčastěji upravované vlastnosti jsou:
 
 Vytvořte podobné obvody pro OR a XOR.
 
+---
+
 [Další kapitola - Třetí stav a zkraty](/kapitoly/stavy.md)
 
 [Předchozí kapitola - Instalace](/kapitoly/logisim-instalace.md)

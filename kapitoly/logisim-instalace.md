@@ -23,6 +23,7 @@ Všechny gaty jsou nastaveny na `narrow`
 
 ![Download - template](/logisim/template.circ)
 
+---
 
 [Další kapitola - Základy](/kapitoly/logisim-zaklady.md)
 

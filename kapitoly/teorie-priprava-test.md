@@ -238,6 +238,8 @@ $X = A +C$
 
 </details>
 
+---
+
 [Další kapitola - Logisim instalace](/kapitoly/logisim-instalace.md)
 
 [Předchozí kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)
