@@ -112,3 +112,11 @@ Sčítačka by měla být schopna provést více operací, jedná se o následuj
 Bonusově můžete dodělat násobení neboli `MUL`. Zde se výsledek rozděluje na dva výstupy a to horní část `HOUT` a dolní část `OUT`.
 
 - `MUL` - násobení
+
+---
+
+[Další kapitola - Sčítačka/odčítačka](/kapitoly/alu-scitacka.md)
+
+[Předchozí kapitola - Logisim komparátor](/kapitoly/komparator.md)
+
+[Hlavní menu](/README.md)
