@@ -30,7 +30,9 @@ Postavte 2 bitový komparátor, který má dva 2 bitové vstupy $A,B$ a 3 výstu
   Vytvořili jsme si compGE, abychom ušetřili dvě logic gaty, jelikož potřebujeme pro 2 bitový komparátor pouze GT a EQ.
 </details>
 
-[Další kapitola - ALU sčítačka/odčítačka](/kapitoly/alu-scitacka.md)
+---
+
+[Další kapitola - ALU úvod](/kapitoly/alu-uvod.md)
 
 [Předchozí kapitola - Multiplexory a dekodéry](/kapitoly/multiplexory-dekodery.md)
 
