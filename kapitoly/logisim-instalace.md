@@ -23,6 +23,8 @@ Všechny gaty jsou nastaveny na `narrow`
 
 ![Download - template](/logisim/template.circ)
 
+Template si můžete nastavit v `File > Preferences... > Template > User template > Select > Vybrat template file`
+
 ---
 
 [Další kapitola - Základy](/kapitoly/logisim-zaklady.md)

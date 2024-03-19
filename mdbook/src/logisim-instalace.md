@@ -17,6 +17,8 @@ Můžeme nainstalovat z Arch AUR repozitáře pomocí `yay`
 yay -S logisim-evolution
 ```
 
+Template si můžete nastavit v `File > Preferences... > Template > User template > Select > Vybrat template file`
+
 ### Logisim template
 
 Všechny gaty jsou nastaveny na `narrow`
