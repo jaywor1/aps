@@ -135,7 +135,7 @@ NAND
 
 #### 3. Zapiš výraz pro výstupy zapojení a pro označené vodiče:
 
-![](https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-1.png?raw=true)
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-1.png?raw=true" width="750px">
 
 <details>
   <summary>Řešení</summary>
@@ -148,7 +148,8 @@ b) \\(\overline{C}\\)
 
 </details>
 
-![](https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-2.png?raw=true)
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-2.png?raw=true" width="750px">
+
 
 <details>
   <summary>Řešení</summary>
