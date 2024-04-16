@@ -308,8 +308,9 @@ bool Q = !(A ^ B);
 
 ### Zobrazení logických bran v logisimu
 
-<img src="/obrazky/hradla.png" width="512px"/>
-
+<p align="center">
+<img src="/obrazky/hradla.png" width="375px"/>
+</p>
 ---
 
 [Další kapitola - Karnaughova mapa](/kapitoly/karnaughova-mapa.md)

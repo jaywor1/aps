@@ -312,4 +312,6 @@ bool Q = !(A ^ B);
 
 ### Zobrazení logických bran v logisimu
 
-<img src="https://github.com/jaywor1/aps/blob/main/obrazky/hradla.png?raw=true" width="512px">
+<p align="center">
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/hradla.png?raw=true" width="375px">
+</p>
