@@ -48,13 +48,13 @@ Máme pravdivostní tabulku se vstupy \\(A,B,C,D\\) a výstupem \\(Q\\):
 
 Vznikne nám následující tabulka
 
-<p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-1.png?raw=true" width="512px"></p>
+<p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-1.png?raw=true" width="370px"></p>
 
 2. Zakroužkujeme sousedy
 
 Musíme zakroužkovat všechny \\(1\\), kroužkujeme buď samostatnou \\(1\\) nebo sudé počty jedniček \\(2,4,6...\\)
 
-<p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-2.png?raw=true" width="512px"></p>
+<p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-2.png?raw=true" width="370px"></p>
 
 3. Vytvoříme výrazy
 
@@ -90,19 +90,19 @@ Máme pravdivostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
 1. Vytvoříme si Karnaughovu mapu (tam kde jsou písmena, tak je hodnota nastavená na 1)
 
 <p align="center">
-  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnachova-mapa.png?raw=true" width=512px/>
+  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnachova-mapa.png?raw=true" width=420px/>
 </p>
 
 2.  Doplníme do tabulky
 
 <p align="center">
-  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-2.png?raw=true" width=512px/>
+  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-2.png?raw=true" width=420px/>
 </p>
 
 3. Zakroužkujeme největší obdelníky a vyjádříme je
 
 <p align="center">
-  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-3.png?raw=true" width=512px/>
+  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-3.png?raw=true" width=420px/>
 </p>
 
 Vidíme, že je blok nezávislý na tom, jestli je \\(A\\) \\(0\\) nebo \\(1\\) , takže zahrneme jen proměnou \\(B\\) a \\(C\\)
@@ -118,12 +118,12 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
 
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Torus_from_rectangle.gif" width=512px/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Torus_from_rectangle.gif" width=352px/>
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-4.png?raw=true" width=512px/>
+  <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-4.png?raw=true" width=420px/>
 </p>
 
 Vidíme, že je výraz \\(Q_2\\) nezávislý na proměnné \\(B\\) (může být \\(0\\) nebo \\(1\\))
