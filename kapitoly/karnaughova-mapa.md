@@ -71,19 +71,6 @@ $(A \cdot \overline{C}) + (A \cdot \overline{B}) + (\overline{B} \cdot C ) + (\o
 
 $A\overline{C}+A\overline{B}+\overline{B}C+\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D = A\overline{C} + \overline{B} \cdot (A + C + \overline{A} \cdot \overline{C} \cdot D)$
 
-5. Výsledný výraz si můžeme postavit v logisimu viz. obrázek
-
-<p><img src="/obrazky/karnaughova-mapa-1-2.png" width="512px"></p>
-
-
-6. Zkontrolujeme pravdivostní tabulku.
-	1. Klikneme pravým tlačítkem na circuit v nabídce (základní je main)
-	2. Klikneme na tlačítko **Build Circuit**
-	3. Potvrdíme tlačítkem **OK**, popřípadě **Yes**
-	4. Vybereme v nabídce **Table**
-	5. Dostaneme tabulku viz. obrázek
-
-
 
 ### Karnaughova mapa - příklad 2
 
