@@ -8,7 +8,7 @@ Postavte 1 bitový komparátor, který má 2 vstupy $A,B$ a 3 výstupy `A>B` (GT
 
 <details>
   <summary>Řešení</summary>
-  <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/comp1b.png">
+  <p align="center"><img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/comp1b.png" width="650px"></p>
 </details>
 
 ---
@@ -23,7 +23,7 @@ Postavte 2 bitový komparátor, který má dva 2 bitové vstupy $A,B$ a 3 výstu
 </details>
 <details>
   <summary>Řešení - compGE</summary>
-  <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/compge.png">
+  <p align="center"><img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/compge.png" width="650px"></p>
 </details>
 <details>
   <summary>Řešení - Popis</summary>
