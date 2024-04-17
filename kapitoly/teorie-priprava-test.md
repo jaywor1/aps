@@ -135,7 +135,7 @@ $X = \overline{(A \cdot B)}$
 
 #### 3. Zapiš výraz pro výstupy zapojení a pro označené vodiče:
 
-<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-1.png?raw=true" width="750px">
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-1.png?raw=true" width="500px">
 
 <details>
   <summary>Řešení</summary>
@@ -148,7 +148,7 @@ $X = (A+B) \bigoplus \overline{C}$
 
 </details>
 
-<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-2.png?raw=true" width="750px">
+<img src="https://github.com/jaywor1/aps/blob/main/obrazky/teorie-cviko-2.png?raw=true" width="500px">
 
 <details>
   <summary>Řešení</summary>
@@ -172,7 +172,7 @@ $X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}$
 
 <details>
   <summary>Řešení - zapojení</summary>
-<img src="/obrazky/teorie-cviko-3.png">
+<img src="/obrazky/teorie-cviko-3.png" width="600px">
 
 </details>
 <details>
