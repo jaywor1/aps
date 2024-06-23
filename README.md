@@ -1,8 +1,10 @@
 # APS - Skripta
 
-V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomhle repu viz. [link](https://github.com/jaywor1/aps/issues/new?assignees=jaywor1&labels=bug&projects=&template=chyba.md&title=%5BBUG%5D+) nebo pište na misa.javor@gmail.com
+V připadě chybějícího materiálu či nějakého požadavku pro skripta založte issue skrz tenhle [link](https://github.com/jaywor1/aps/issues/new?assignees=jaywor1&labels=feature&projects=&template=feature.md&title=%5BFEAT%5D+)
 
 ### Link na webovou stránku skript: [jaywor1.github.io/aps](http://jaywor1.github.io/aps)
+
+V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomhle repu viz. [link](https://github.com/jaywor1/aps/issues/new?assignees=jaywor1&labels=bug&projects=&template=chyba.md&title=%5BBUG%5D+) nebo pište na misa.javor@gmail.com
 
 ## Kapitoly
 
