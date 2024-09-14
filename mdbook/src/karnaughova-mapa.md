@@ -156,6 +156,3 @@ Výsledné výrazy sečteme
 <p align="center">
   <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-table.png?raw=true" width=312px/>
 </p>
-
-
-[Předchozí kapitola - Booleova-algebra](/kapitoly/booleova-algebra.md)
