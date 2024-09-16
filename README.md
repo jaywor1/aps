@@ -8,6 +8,22 @@ V připadě chybějícího materiálu či nějakého požadavku pro skripta zalo
 
 V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomhle repu viz. [link](https://github.com/jaywor1/aps/issues/new?assignees=jaywor1&labels=bug&projects=&template=chyba.md&title=%5BBUG%5D+)
 
+### Commity
+
+Pokud by někdo chtěl udělat nějakou kontribuci, tak vyžaduji použití gitmoji pro zachování commit messages.
+
+Instalace
+
+```
+npm install -g gitmoji
+```
+
+Commit pomocí
+
+```
+gitmoji -c
+```
+
 ## Kapitoly
 
 - ### Teorie
