@@ -45,9 +45,6 @@ jobs:
           fi
   # Build job
   build:
-    if: |
-      (github.event_name == 'pull_request' && github.event.pull_request.converted_to_draft == false) ||
-      (github.ref.name == 'main')
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.21
