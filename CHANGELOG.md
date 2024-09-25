@@ -10,3 +10,4 @@
 ### Changes
 
 - Replace logisim template download link from github to raw format
+- Allow to run build on all branches
