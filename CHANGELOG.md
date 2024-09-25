@@ -1,6 +1,6 @@
 # APS - Changelog
 
-## 1.1.0
+## 25-09-2024 - APS 1.1.0
 
 ### Features
 
