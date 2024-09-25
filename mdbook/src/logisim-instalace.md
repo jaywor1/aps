@@ -23,4 +23,4 @@ Template si můžete nastavit v `File > Preferences... > Template > User templat
 
 Všechny gaty jsou nastaveny na `narrow`
 
-[Download - template](https://github.com/jaywor1/aps/blob/main/logisim/template.circ)
+[Download - template](https://raw.githubusercontent.com/jaywor1/aps/refs/heads/main/logisim/template.circ)
