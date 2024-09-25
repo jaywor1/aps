@@ -29,7 +29,7 @@ jobs:
     if: github.ref.name != 'main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Fetch main branch
         run: git fetch origin main
 
@@ -52,7 +52,7 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.21
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
