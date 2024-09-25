@@ -2,12 +2,12 @@
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
 #
-name: Deploy mdBook site to Pages
+name: APS CI
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on all branches
   push:
-    branches: ["main"]
+    branches: ['*']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,8 +25,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch main branch
+        run: git fetch origin main
+
+      - name: Check diff for CHANGELOG.md
+        run: |
+          git diff origin/main..HEAD -- CHANGELOG.md > diff.txt
+          if [ -s diff.txt ]
+          then
+            echo "CHANGELOG has a diff"
+          else
+            echo "CHANGELOG missing diff (you need to add something to CHANGELOG)"
+            exit 1
+          fi
   # Build job
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.21
@@ -49,6 +67,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
