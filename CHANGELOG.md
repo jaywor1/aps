@@ -6,7 +6,7 @@
 
 - Add CHANGELOG.md
 - Add check in CI for CHANGELOG before merging/rebasing to main
-- Upgrade mdbook to 0.4.40 (to test)
+- Upgrade mdbook to 0.4.40
 
 ### Changes
 
