@@ -45,7 +45,6 @@ jobs:
           fi
   # Build job
   build:
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.21
