@@ -25,6 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  if: github.ref != 'refs/heads/main'
   check:
     runs-on: ubuntu-latest
     steps:
