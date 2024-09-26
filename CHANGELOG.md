@@ -1,5 +1,13 @@
 # APS - Changelog
 
+## To be released...
+
+### Features
+
+- Add some new stuff to boolenova algebra - contributor @mvojacek
+
+### Changes
+
 ## 25-09-2024 - APS 1.1.0
 
 ### Features
