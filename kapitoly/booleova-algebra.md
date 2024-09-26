@@ -44,6 +44,10 @@ Budeme se soustředit na dvouprvkovou Booleovu algebru tj. budou 2 prvky:
 | absorbce | $x+x{\cdot}y=x$ | $x{\cdot}(x+y)=x$ |
 | dvojí negace | $\overline{\overline{{x}}} = x$ | $\overline{\overline{{x}}} = x$ |
 
+### Hradlo XOR
+
+$$ x \oplus y = x \cdot \overline{y} + \overline{x} \cdot y $$
+
 ----
 
 **Pomocí pravidel zjednodušujeme výrazy viz. [link](/kapitoly/teorie-priprava-test.md#5-zjednoduš-následující-výraz-do-co-nejjednodušší-podoby)**
