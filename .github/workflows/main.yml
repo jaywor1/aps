@@ -50,6 +50,14 @@ jobs:
       MDBOOK_VERSION: 0.4.40
     steps:
       - uses: actions/checkout@v4
+
+      # Cache cargo
+      - name: Cargo cache
+        uses: actions/cache@v3
+        with:
+          path: "~/.cargo"
+          key: "${{ runner.os }}-cargo"
+
       - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
