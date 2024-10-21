@@ -63,7 +63,7 @@ Rozdělíme tak těleso na dvě poloviny na zápornou a nezápornou. Viz. obráz
 <img src="https://raw.githubusercontent.com/jaywor1/aps/main/obrazky/alu-scitacka-doplnek.png" width="350px">
 </p>
 
-Zkráceně dvojkový doplněk spočívá ve vyhrazení prvního bitu pro znaménko. `1` znamená `-` a `0` znamená `+` s tím, že jsou u negativních čísel znegované bity. Pochopíte z následného příkladu.
+Zkráceně dvojkový doplněk spočívá ve vyhrazení prvního bitu pro znaménko. `1` znamená `-` a `0` znamená `+` s tím, že jsou u negativních čísel znegované bity a poté přičtena `1`. Pochopíte z následného příkladu.
 
 | Dvojková soustava | Decimální soustava |
 |:---:|:---:|
