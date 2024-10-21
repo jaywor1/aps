@@ -4,6 +4,7 @@
 
 ### Features
 
+- Fix information about "dvojkový doplněk" - contributor @jaywor1
 - Add some new stuff to boolenova algebra - contributor @mvojacek
 
 ### Changes
