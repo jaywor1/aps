@@ -140,11 +140,11 @@ NAND
 <details>
   <summary>Řešení</summary>
 
-a) \\(A+B\\)
+a) \\(A \cdot B\\)
 
 b) \\(\overline{C}\\)
 
-\\(X = (A+B) \bigoplus \overline{C}\\)
+\\(X = (A \cdot B) \bigoplus \overline{C}\\)
 
 </details>
 
