@@ -101,6 +101,9 @@ Máme pravdivostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
 
 3. Zakroužkujeme největší obdelníky a vyjádříme je
 
+POZOR: oranžový 1x1 obdélník není optimální (maximální), lepší by byl jako 2x2 čtverec přecházející přes hranu. Je to takhle zvolen abychom
+ukázali, že K-Mapa dál funguje, jenom není výsledek optimální - 1x1 čtverec je potřeba vyjádřit jako 4-term, místo 2-termu pokud bychom udělali 2x2.
+
 <p align="center">
   <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-3.png?raw=true" width=512px/>
 </p>
