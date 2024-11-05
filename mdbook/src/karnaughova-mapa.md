@@ -52,7 +52,7 @@ Vznikne nám následující tabulka
 
 2. Zakroužkujeme sousedy
 
-Musíme zakroužkovat všechny \\(1\\), kroužkujeme buď samostatnou \\(1\\) nebo sudé počty jedniček \\(2,4,6...\\)
+Musíme zakroužkovat všechny \\(1\\), kroužkujeme buď samostatnou \\(1\\) (v tomto případě je výsledek stejný jako při stavění pomocí mintermů přímo z pravdivostní tabulky, tady K-mapa nemá žádný přínos) nebo obdélníky s obsahem rovným některé mocnině \\(2\\) \\(2,4,8...\\), z čehož přímo výplývá (jako nutná podmínka), že obě dělky stran obdélníků musí být mocniny dvou.
 
 <p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-2.png?raw=true" width="512px"></p>
 
