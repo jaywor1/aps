@@ -1,6 +1,6 @@
 # APS - Changelog
 
-## To be released...
+## 12-11-2024 - APS 1.1.1
 
 ### Features
 
