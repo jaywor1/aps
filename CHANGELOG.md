@@ -10,9 +10,10 @@
 - K-Mapa má délky obdelníků mocniny dvou - contributor @mvojacek
 - K-mapa v obrázku není optimálí - contributor @mvojacek
 - Oprava 3. priklad AND-OR - contributor @mvojacek
-- Changed information about contributions - contributor @jaywor1
 
 ### Changes
+
+- Changed information about contributions - contributor @jaywor1
 
 ## 25-09-2024 - APS 1.1.0
 
