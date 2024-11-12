@@ -7,6 +7,9 @@
 - Add cache for github CI - contributor @jaywor1
 - Fix information about "dvojkový doplněk" - contributor @jaywor1
 - Add some new stuff to boolenova algebra - contributor @mvojacek
+- K-Mapa má délky obdelníků mocniny dvou - contributor @mvojacek
+- K-mapa v obrázku není optimálí - contributor @mvojacek
+- Oprava 3. priklad AND-OR - contributor @mvojacek
 
 ### Changes
 
