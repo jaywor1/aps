@@ -10,7 +10,7 @@ V případě pravopisné chyby nebo nějaké nesrovnalosti založte issue v tomh
 
 ### Commity
 
-Pokud by někdo chtěl udělat nějakou kontribuci, tak vyžaduji použití gitmoji pro zachování commit messages.
+Pokud by někdo chtěl udělat nějakou kontribuci, tak silně doporučuji použití gitmoji pro zachování commit messages.
 
 Instalace
 
