@@ -21,7 +21,7 @@ Příkladná tabulka pro 3 bity (tučně zvýrazněný změněný bit):
 
 ### Karnaughova mapa - příklad 1
 
-Máme pravdivostní tabulku se vstupy \\(A,B,C,D\\) a výstupem \\(Q\\):
+Máme pravdivostní tabulku se vstupy $ A,B,C,D$ a výstupem $Q $:
 
 | A | B | C | D | Q | index bitu |
 |:-:|:-:|:-:|:-:|:-:|:----------:|
@@ -52,28 +52,28 @@ Vznikne nám následující tabulka
 
 2. Zakroužkujeme sousedy
 
-Musíme zakroužkovat všechny \\(1\\), kroužkujeme buď samostatnou \\(1\\) (v tomto případě je výsledek stejný jako při stavění pomocí mintermů přímo z pravdivostní tabulky, tady K-mapa nemá žádný přínos) nebo obdélníky s obsahem rovným některé mocnině \\(2\\) \\(2,4,8...\\), z čehož přímo výplývá (jako nutná podmínka), že obě dělky stran obdélníků musí být mocniny dvou.
+Musíme zakroužkovat všechny $ 1$, kroužkujeme buď samostatnou $1$ (v tomto případě je výsledek stejný jako při stavění pomocí mintermů přímo z pravdivostní tabulky, tady K-mapa nemá žádný přínos) nebo obdélníky s obsahem rovným některé mocnině $2$ $2,4,8... $, z čehož přímo výplývá (jako nutná podmínka), že obě dělky stran obdélníků musí být mocniny dvou.
 
 <p><img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-1-2.png?raw=true" width="512px"></p>
 
 3. Vytvoříme výrazy
 
-- Růžová - \\(A \cdot \overline{C}\\)
-- Zelená - \\(A \cdot \overline{B}\\)
-- Modrá - \\(\overline{B} \cdot C\\)
-- Oranžová - \\(\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D\\)
+- Růžová - $ A \cdot \overline{C} $
+- Zelená - $ A \cdot \overline{B} $
+- Modrá - $ \overline{B} \cdot C $
+- Oranžová - $ \overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D $
 
 4. Sečteme výrazy
 
-\\((A \cdot \overline{C}) + (A \cdot \overline{B}) + (\overline{B} \cdot C ) + (\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D)\\)
+$$ (A \cdot \overline{C}) + (A \cdot \overline{B}) + (\overline{B} \cdot C ) + (\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D) $$
 
 5. Upravíme výraz
 
-\\(A\overline{C}+A\overline{B}+\overline{B}C+\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D = A\overline{C} + \overline{B} \cdot (A + C + \overline{A} \cdot \overline{C} \cdot D)\\)
+$$ A\overline{C}+A\overline{B}+\overline{B}C+\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D = A\overline{C} + \overline{B} \cdot (A + C + \overline{A} \cdot \overline{C} \cdot D) $$
 
 ### Karnaughova mapa - příklad 2
 
-Máme pravdivostní tabulku se vstupy \\(A,B,C\\) a výstupem \\(Q\\):
+Máme pravdivostní tabulku se vstupy $ A,B,C$ a výstupem $ Q $:
 
 | A | B | C | Q |
 |:-:|:-:|:-:|:-:|
@@ -108,14 +108,14 @@ ukázali, že K-Mapa dál funguje, jenom není výsledek optimální - 1x1 čtve
   <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-3.png?raw=true" width=512px/>
 </p>
 
-Vidíme, že je blok nezávislý na tom, jestli je \\(A\\) \\(0\\) nebo \\(1\\) , takže zahrneme jen proměnou \\(B\\) a \\(C\\)
+Vidíme, že je blok nezávislý na tom, jestli je $ A$ $0$ nebo $1$ , takže zahrneme jen proměnou $B$ a $C $
 
-- \\(B\\) musí být \\(0\\)
-- \\(C\\) musí být \\(0\\)
+- $ B $ musí být $ 0 $
+- $ C $ musí být $ 0 $
 
-\\(Q_1 = \overline{B} * \overline{C}\\)
+$$ Q_1 = \overline{B} \cdot \overline{C} $$
 
-Součin jsme použili, protože je \\(\*\\) totožné logickému *a zároveň platí* (v programovacím jazyku C -->`&&`)
+Součin jsme použili, protože je $ \cdot $ totožné logickému *a zároveň platí* (v programovacím jazyku C -->`&&`)
 
 Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se nacházejí "vedle sebe" (na začátku a na konci)
 
@@ -129,18 +129,18 @@ Jelikož se jedná o torus (viz. gif), můžeme označit i hodnoty, které se na
   <img src="https://github.com/jaywor1/aps/blob/main/obrazky/karnaughova-mapa-4.png?raw=true" width=512px/>
 </p>
 
-Vidíme, že je výraz \\(Q_2\\) nezávislý na proměnné \\(B\\) (může být \\(0\\) nebo \\(1\\))
+Vidíme, že je výraz $ Q_2 $ nezávislý na proměnné $ B $ (může být $ 0 $ nebo $ 1 $)
 
-- \\(A\\) musí být \\(0\\)
-- \\(C\\) musí být \\(0\\)
+- $ A $ musí být $ 0 $
+- $ C $ musí být $ 0 $
 
-\\(Q_2 = \overline{A} * \overline{C}\\)
+$$ Q_2 = \overline{A} \cdot \overline{C} $$
 
 4. Sjednotíme výrazy
 
 Výsledné výrazy sečteme
 
-\\(Q = Q_1  + Q_2 = (\overline{B} * \overline{C}) + (\overline{A} * \overline{C})\\)
+$$ Q = Q_1  + Q_2 = (\overline{B} \cdot \overline{C}) + (\overline{A} \cdot \overline{C}) $$
 
 5. Výsledný výraz si můžeme postavit v logisimu viz. obrázek
 

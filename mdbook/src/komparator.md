@@ -4,7 +4,7 @@
 
 #### 1 bitový komparátor
 
-Postavte 1 bitový komparátor, který má 2 vstupy \\(A,B\\) a 3 výstupy `A>B` (GT), `A=B` (EQ), `A<B` (LT)
+Postavte 1 bitový komparátor, který má 2 vstupy $A,B$ a 3 výstupy `A>B` (GT), `A=B` (EQ), `A<B` (LT)
 
 <details>
   <summary>Řešení</summary>
@@ -15,7 +15,7 @@ Postavte 1 bitový komparátor, který má 2 vstupy \\(A,B\\) a 3 výstupy `A>B`
 
 #### 2 bitový komparátor
 
-Postavte 2 bitový komparátor, který má dva 2 bitové vstupy \\(A,B\\) a 3 výstupy `A>B` (GT), `A=B` (EQ), `A<B` (LT)
+Postavte 2 bitový komparátor, který má dva 2 bitové vstupy $A,B$ a 3 výstupy `A>B` (GT), `A=B` (EQ), `A<B` (LT)
 
 <details>
   <summary>Řešení - Komparátor 2b</summary>

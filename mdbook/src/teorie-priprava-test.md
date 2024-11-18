@@ -10,7 +10,7 @@ a) NOT
 <details>
   <summary>Řešení</summary>
 
-\\(X = \overline{A}\\)
+$$ X = \overline{A} $$
 
 |A|X|
 |:-:|:-:|
@@ -28,7 +28,7 @@ b) OR
 <details>
   <summary>Řešení</summary>
 
-\\(X = A + B\\)
+$$ X = A + B $$
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -47,7 +47,7 @@ c) XNOR
 <details>
   <summary>Řešení</summary>
 
-\\(X = \overline{(A \bigoplus B)}\\)
+$$ X = \overline{(A \bigoplus B)} $$
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -66,7 +66,7 @@ d) AND
 <details>
   <summary>Řešení</summary>
   
-\\(X = A \cdot B\\)
+$$ X = A \cdot B $$
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -86,7 +86,7 @@ a) <img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NOR_ANSI_La
 
 NOR
 
-\\(X = \overline{(A + B)}\\)
+$$ X = \overline{(A + B)} $$
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -104,7 +104,7 @@ b) <img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-XOR_ANSI_La
 
 XOR
 
-\\(X = A \bigoplus B\\)
+$$ X = A \bigoplus B $$
 
 |A|B|X|
 |:-:|:-:|:-:|
@@ -122,7 +122,7 @@ c) <img src="https://github.com/jaywor1/aps/blob/main/obrazky/1920px-NAND_ANSI_L
 
 NAND
 
-\\(X = \overline{(A \cdot B)}\\)
+$$ X = \overline{(A \cdot B)} $$
 
 |A|B|Q|
 |:-:|:-:|:-:|
@@ -140,11 +140,11 @@ NAND
 <details>
   <summary>Řešení</summary>
 
-a) \\(A \cdot B\\)
+a) $A \cdot B$
 
-b) \\(\overline{C}\\)
+b) $\overline{C}$
 
-\\(X = (A \cdot B) \bigoplus \overline{C}\\)
+$$ X = (A \cdot B) \bigoplus \overline{C} $$
 
 </details>
 
@@ -154,22 +154,22 @@ b) \\(\overline{C}\\)
 <details>
   <summary>Řešení</summary>
 
-a) \\(\overline{A}\\)
+a) $\overline{A}$
 
-b) \\(B+C\\)
+b) $B+C$
 
-c) \\(\overline{(B+C) \bigoplus D}\\)
+c) $\overline{(B+C) \bigoplus D}$
 
-\\(X = \overline{A} \cdot (B+C)\\)
+$$ X = \overline{A} \cdot (B+C) $$
 
-\\(Y = (B+C) \cdot \overline{(B+C) \bigoplus D}\\)
+$$ Y = (B+C) \cdot \overline{(B+C) \bigoplus D} $$
 
 </details>
 
 
 #### 4. Nakresli zapojení pro následující výraz a nakresli pravdivostní tabulku
 
-\\(X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B}\\)
+$$ X = (A \cdot B) + (\overline{A \bigoplus C}) + \overline{B} $$
 
 <details>
   <summary>Řešení - zapojení</summary>
@@ -181,9 +181,9 @@ c) \\(\overline{(B+C) \bigoplus D}\\)
 
 Taktéž v zapojení můžeme použít jeden OR, který příjmá 3 vstupy místo dvou (jelikož sčítání je asociativní a komutativní).
 
-Vytváření tabulky si ulehčíme spočítáním sloupců pro námi zvolené podvýrazy (\\(A \cdot B\\), \\(\overline{A \bigoplus C}\\), \\(\overline{B}\\)) jejich hodnoty použijeme v dalších výpočtech, abychom se vyhnuli chybám při počítání komplikovaných výrazu z hlavy. Pokud víme na první pohled hodnoty některých řádků výsledku, můžeme je vyplnit hned do výsledku a v pomocných sloupcích je přeskočit. Nutné sloupce jsou pouze vstupy (\\(A\\),\\(B\\),\\(C\\)) a výstupy (\\(X\\)).
+Vytváření tabulky si ulehčíme spočítáním sloupců pro námi zvolené podvýrazy ($A \cdot B$, $\overline{A \bigoplus C}$, $\overline{B}$) jejich hodnoty použijeme v dalších výpočtech, abychom se vyhnuli chybám při počítání komplikovaných výrazu z hlavy. Pokud víme na první pohled hodnoty některých řádků výsledku, můžeme je vyplnit hned do výsledku a v pomocných sloupcích je přeskočit. Nutné sloupce jsou pouze vstupy ($A$,$B$,$C$) a výstupy ($X$).
 
-|\\(A\\)|\\(B\\)|\\(C\\)|\\(A \cdot B\\)|\\(\overline{A \bigoplus C} \\)| \\(\overline{B}\\) | \\(X\\) |
+|$A$|$B$|$C$|$A \cdot B$|$\overline{A \bigoplus C} $| $\overline{B}$ | $X$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
@@ -198,43 +198,43 @@ Vytváření tabulky si ulehčíme spočítáním sloupců pro námi zvolené po
 
 #### 5. Zjednoduš následující výraz do co nejjednodušší podoby
 
-Výsledek zde: \\(\Box\\)
+Výsledek zde: $\Box$
 
-\\(X=(AC + C + B) + \overline{B \cdot \overline{C}} + \overline{C}(\overline{A}C +C)\\)
+$$ X=(AC + C + B) + \overline{B \cdot \overline{C}} + \overline{C}(\overline{A}C +C) $$
 
 </details>
 <details>
   <summary>Řešení</summary>
 
-\\(X = (C(A+1)+B)+\overline{B}+C+\overline{C}(C(\overline{A}+1))\\)
+$$ X = (C(A+1)+B)+\overline{B}+C+\overline{C}(C(\overline{A}+1)) $$
 
-\\(X = (AC+B)+\overline{B} + C + \overline{C} \cdot (\overline{A}C)\\)
+$$ X = (AC+B)+\overline{B} + C + \overline{C} \cdot (\overline{A}C) $$
 
-\\(X = AC + B + \overline{B} + C + 0\\)
+$$ X = AC + B + \overline{B} + C + 0 $$
 
-\\(X = AC + 1 + C\\)
+$$ X = AC + 1 + C $$
 
-\\(X = 1\\)
+$$ X = 1 $$
 
 </details>
 
 ---
 
-Výsledek zde: \\(\Box + \Box\\)
+Výsledek zde: $\Box + \Box$
 
-\\(X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C\\)
+$$ X=(A+C)(A \cdot B + \overline{\overline{A} + B}) + AC + C $$
 
 <details>
   <summary>Řešení</summary>
 
-\\(X = (A+C)(A \cdot B + A \cdot \overline{B}) + C\\)
+$$ X = (A+C)(A \cdot B + A \cdot \overline{B}) + C $$
 
-\\(X = (A+C)(A \cdot (B+\overline{B})) + C\\)
+$$ X = (A+C)(A \cdot (B+\overline{B})) + C $$
 
-\\(X = ((A+C) \cdot A) + C\\)
+$$ X = ((A+C) \cdot A) + C $$
 
-\\(X = A \cdot A + A \cdot C + C\\)
+$$ X = A \cdot A + A \cdot C + C $$
 
-\\(X = A +C\\)
+$$ X = A +C $$
 
 </details>

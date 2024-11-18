@@ -24,7 +24,7 @@ U falling edge detektoru jen prohodíme `NAND` gatu za `AND` gatu.
 
 Pravdivostní tabulka
 
-| Clock | D | \\(Q_{next}\\) |
+| Clock | D | $Q_{next}$ |
 |:-----:|:-:|:----------:|
 | `Rising edge` | 0 | 0 |
 | `Rising edge` | 1 | 1 |
