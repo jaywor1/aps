@@ -8,7 +8,7 @@ Po úspěšném nainstalovaní `logisim-evolution` (viz. [návod](logisim-instal
 
 Jako první vám doporučuji nahrát template, kde jsou všechny gaty nastavené na narrow.
 
-<a href="https://raw.githubusercontent.com/jaywor1/aps/main/logisim/template.circ" download>template.circ</a>
+[template.circ](https://raw.githubusercontent.com/jaywor1/aps/main/logisim/template.circ)
 
 Nahrajeme template:
 

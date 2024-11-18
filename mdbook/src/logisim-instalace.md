@@ -17,10 +17,10 @@ Můžeme nainstalovat z Arch AUR repozitáře pomocí `yay`
 yay -S logisim-evolution
 ```
 
-### Logisim template
-
 Template si můžete nastavit v `File > Preferences... > Template > User template > Select > Vybrat template file`
 
-Všechny gaty jsou nastaveny na `narrow`, všechny plexery mají disabled output zero.
+### Logisim template
+
+Všechny gaty jsou nastaveny na `narrow`
 
 [Download - template](https://raw.githubusercontent.com/jaywor1/aps/refs/heads/main/logisim/template.circ)

@@ -34,9 +34,9 @@ Pravdivostní tabulka JK latch
 
 D latch využívá vstup enable jako 2 vstup. Tvořící sérii pravidel.
 
-| E | D | Q | $ \overline{Q} $ | Poznámka |
+| E | D | Q | \\(\overline{Q}\\) | Poznámka |
 |:-:|:-:|:-:|:--------------:|:--------:|
-| 0 | X | Q' | $ \overline{Q'} $ | Beze změny |
+| 0 | X | Q' | \\(\overline{Q'}\\) | Beze změny |
 | 1 | 0 | 0 | 1 | Reset |
 | 1 | 1 | 1 | 0 | Set |
 

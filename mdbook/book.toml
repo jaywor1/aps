@@ -1,56 +1,12 @@
 [book]
-authors = ["jaywor1", "Michal Vojáček"]
+authors = ["jaywor1"]
 language = "en"
 multilingual = false
 src = "src"
-title = "APS Skripta"
+title = "APS"
 
 [output.html]
 mathjax-support = true
 default-theme = "rust"
 preferred-dark-theme = "ayu"
-git-repository-url = "https://github.com/mvojacek/aps-skripta"
-
-[preprocessor.katex]
-after = ["links"]
-
-[preprocessor.image-size]
-command = "mdbook-image-size"
-after = ["katex"]
-
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
-max-level = 6
-
-# [output.pdf]
-
-#[output.pandoc]
-#hosted-html = "https://skripta.vojacek.org" # URL of a HTML version of the book
-#
-#[output.pandoc.code]
-## Display hidden lines in code blocks (e.g., lines in Rust blocks prefixed by '#').
-## See https://rust-lang.github.io/mdBook/format/mdbook.html?highlight=hidden#hiding-code-lines
-#show-hidden-lines = false
-#
-#[output.pandoc.profile.pdf] # options to pass to Pandoc (see https://pandoc.org/MANUAL.html#defaults-files)
-#output-file = "output.pdf" # output file (within the profile's build directory)
-#to = "latex" # output format
-#
-## PDF-specific settings
-#pdf-engine = "pdflatex" # engine to use to produce PDF output
-#
-## `mdbook-pandoc` overrides Pandoc's defaults for the following options to better support mdBooks
-#from = "gfm+tex_math_dollars+pipe_tables"
-#file-scope = true # parse each file individually before combining
-#number-sections = true # number sections headings
-#standalone = true # produce output with an appropriate header and footer
-#table-of-contents = true # include an automatically generated table of contents
-#
-## Arbitrary other Pandoc options can be specified as they would be in a Pandoc defaults file
-## (see https://pandoc.org/MANUAL.html#defaults-files) but written in TOML instead of YAML...
-#
-## For example, to pass variables (https://pandoc.org/MANUAL.html#variables):
-#[output.pandoc.profile.pdf.variables]
-## Set the pandoc variable named 'variable-name' to 'value'
-##variable-name = "value"
+git-repository-url = "https://github.com/jaywor1/aps"

@@ -74,7 +74,7 @@ Abychom ho mohli vyresetovat, přidáme další vstup a to `R` jako reset.
 
 Zapíšeme do výrazu
 
-$$ Q = S + B = Q + (Q \cdot \overline{R}) $$
+\\(Q = S + B = Q + (Q \cdot \overline{R})\\)
 
 Zapíšeme chování do pravdivostní tabulky
 
